@@ -1,0 +1,68 @@
+.afacad-flux {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+.archivo{
+    font-family: "Archivo", "Afacad Flux" , sans-serif !important;
+    font-optical-sizing: auto;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+*{
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+
+
+.navbar-nav  li a span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-lg{
+    border-radius: 0.5rem;
+}
+
+.home-services__item::after{
+    content: '+';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    font-size: 40px;
+}
+
+.home-services__item::before{
+    content: '>';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    font-size: 40px;
+    transition: all 100ms ease;
+    opacity: 0;
+}
+
+
+.home-services__item:hover::before{
+    opacity: 1 ;
+    color: white ;
+    right: 40px;
+    z-index : 100
+}
+
+.home-services__item:hover::after{
+    opacity: 0;
+}
