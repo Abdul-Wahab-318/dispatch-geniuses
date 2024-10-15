@@ -12,6 +12,7 @@ module.exports = {
     }, 
     extend: {
       colors: {
+        primary : '#009aff',
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

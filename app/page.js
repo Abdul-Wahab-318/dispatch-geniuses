@@ -1019,12 +1019,12 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <div className="section-lgy section-lg youtube">
+          {/* <div className="section-lgy section-lg youtube">
             <div className="container">
               <div className="row">
                 <div className="col-12">
                   <div className="youtube-section__head wow animate__ animate__fadeInLeft h2">
-                    What is Logity Dispatch?
+                    What is Dispatch Geniuses?
                   </div>
                 </div>
                 <div className="col-12">
@@ -1044,12 +1044,13 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <section  className="section-lg home-stats">
+
             <div className="container home-stats__inner">
               <div className="row">
                 <div className="col-12">
-                  <h2 className="home-stats__title wow animate__animated animate__fadeInLeft">
+                  <h2 className="home-stats__title wow animate__animated animate__fadeInLeft text-white">
                     To work
                     <br />
                     not talk <a href="services/index.html" />
@@ -1060,27 +1061,23 @@ export default function Home() {
                 <div className="col-12 col-md-4 home-stats__item-wrap">
                   <div className="home-stats__item">
                     <div className="home-stats__icon">
-                      <svg>
-                        <use xlinkHref="#home-stats-icon1" />
-                      </svg>
+                      <Image src={'/images/icons/forklift.png'} width={50} height={50} />
                     </div>
-                    <div className="h3 home-stats__num" id="home-stats-num-1">
-                      <span>5000</span>+
+                    <div className="h3 home-stats__num text-white font-extrabold" id="home-stats-num-1">
+                      <span className="font-bold text-7xl text-white">1,000 +</span>
                     </div>
-                    <div className="h4 home-stats__name">Loads Booked</div>
+                    <div className="h4 home-stats__name text-white font-bold">Loads Booked</div>
                   </div>
                 </div>
                 <div className="col-12 col-md-4 home-stats__item-wrap">
                   <div className="home-stats__item">
                     <div className="home-stats__icon">
-                      <svg>
-                        <use xlinkHref="#home-stats-icon2" />
-                      </svg>
+                      <Image src={'/images/icons/money.png'} width={50} height={50} />
                     </div>
                     <div className="h3 home-stats__num" id="home-stats-num-2">
-                      $<span>7500</span>+
+                      <span className="font-bold text-7xl text-white">$7,000 +</span>
                     </div>
-                    <div className="h4 home-stats__name">
+                    <div className="h4 home-stats__name font-bold text-white">
                       Average Gross Revenue
                     </div>
                   </div>
@@ -1088,15 +1085,13 @@ export default function Home() {
                 <div className="col-12 col-md-4 home-stats__item-wrap">
                   <div className="home-stats__item">
                     <div className="home-stats__icon">
-                      <svg>
-                        <use xlinkHref="#home-stats-icon3" />
-                      </svg>
+                      <Image src={'/images/icons/cargo.png'} width={50} height={50} />
                     </div>
                     <div className="h3 home-stats__num" id="home-stats-num-3">
-                      <span>58</span>
+                      <span className="text-white font-bold text-7xl">$34,000</span>
                     </div>
-                    <div className="h4 home-stats__name">
-                      Mln Lbs Dispatched
+                    <div className="h4 home-stats__name text-white font-bold ">
+                      Best Month For Box Truck
                     </div>
                   </div>
                 </div>
@@ -1243,7 +1238,7 @@ export default function Home() {
                   data-wow-delay=".5s"
                 >
                   <div className="form">
-                    <div className="form__title h4">
+                    <div className="form__title h4 text-5xl">
                       Contact us for free setup
                     </div>
                     <div
@@ -1489,7 +1484,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section data-wpr-lazyrender={1} className="section-lg home-trucks">
+          <section data-wpr-lazyrender={1} className="section-lg home-trucks bg-black">
             <div className="container home-trucks__inner">
               <div className="row">
                 <div className="col-12">

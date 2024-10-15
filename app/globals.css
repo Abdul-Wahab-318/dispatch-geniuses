@@ -2157,6 +2157,10 @@ h1::before {
 .home-stats {
   position: relative;
   color: #fff;
+  background-image: url("../public/images/stats-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .home-stats__inner {
   position: relative;
