@@ -1,478 +1,14 @@
 import Image from "next/image"
-import { Faq } from "./components/Faq/Faq"
-import Footer from "./components/Faq/Footer"
+import { Faq } from "./components/faq"
+import Footer from "./components/footer"
+import Navbar from "./components/navbar"
+import Link from "next/link"
 
 export default function Home() {
   return (
     <div className="home page-template page-template-index page-template-index-php page page-id-40">
       <div className="main-wrapper">
-        <nav className="navbar navbar-expand-xl fixed-top">
-          <div className="container-fluid container-xl p-0 navbar__inner">
-            <div className="navbar-brand">
-              <a href="index.html">
-                <Image
-                  src={"/images/logos/logo-white.png"}
-                  width={100}
-                  height={100}
-                />
-              </a>
-            </div>
-            <div className="d-xl-none navbar__phone-onmobile">
-              <a href="tel:3024259299"> (302) 425 92 99</a>
-            </div>
-            <button
-              className="navbar-toggler menu-toggle"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <svg width={100} height={100} viewBox="0 0 100 100">
-                <path
-                  className="menu-toggle__line menu-toggle__line--line1"
-                  d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
-                />
-                <path
-                  className="menu-toggle__line menu-toggle__line--line2"
-                  d="M 20,50 H 80"
-                />
-                <path
-                  className="menu-toggle__line menu-toggle__line--line3"
-                  d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
-                />
-              </svg>
-            </button>
-            <div className=" navbar-collapse" id="navbarSupportedContent">
-              <ul
-                id="menu-header-menu"
-                className="navbar-nav mb-2 mb-lg-0 justify-content-between"
-                itemScope=""
-                itemType="http://www.schema.org/SiteNavigationElement"
-              >
-                <li
-                  id="menu-item-314"
-                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-314 nav-item"
-                >
-                  <a
-                    href="about/index.html"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    className="dropdown-toggle nav-link"
-                    id="menu-item-dropdown-314"
-                    data-target="#menu-item-dropdown-314"
-                  >
-                    <span itemProp="name">About</span>
-                  </a>
-                  <ul
-                    className="dropdown-menu"
-                    aria-labelledby="menu-item-dropdown-314"
-                  >
-                    <li
-                      id="menu-item-443"
-                      className="menu-item menu-item-type-post_type menu-item-object-page menu-item-443 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="careers/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Careers</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-442"
-                      className="menu-item menu-item-type-post_type menu-item-object-page menu-item-442 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="projects/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Success Stories</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-312"
-                      className="menu-item menu-item-type-post_type menu-item-object-page menu-item-312 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="testimonials/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Testimonials</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-1676"
-                      className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1676 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="referral-program/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">
-                          Earn Rewards with Our Referral Program
-                        </span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-444"
-                      className="menu-item menu-item-type-post_type menu-item-object-page menu-item-444 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="blog/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Blog</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-1786"
-                      className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1786 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="videos/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Videos</span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li
-                  id="menu-item-313"
-                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-313 nav-item"
-                >
-                  <a
-                    href="services/index.html"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    className="dropdown-toggle nav-link"
-                    id="menu-item-dropdown-313"
-                    data-target="#menu-item-dropdown-313"
-                  >
-                    <span itemProp="name">Services</span>
-                  </a>
-                  <ul
-                    className="dropdown-menu"
-                    aria-labelledby="menu-item-dropdown-313"
-                  >
-                    <li
-                      id="menu-item-435"
-                      className="menu-item menu-item-type-post_type menu-item-object-services menu-item-435 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="services/dispatching/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Truck Dispatching</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-434"
-                      className="menu-item menu-item-type-post_type menu-item-object-services menu-item-434 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="services/billing/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Billing</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-432"
-                      className="menu-item menu-item-type-post_type menu-item-object-services menu-item-432 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="services/document-management-paperwork/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Document Management</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-398"
-                      className="menu-item menu-item-type-post_type menu-item-object-services menu-item-398 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="services/factoring-service/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Factoring Service</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-397"
-                      className="menu-item menu-item-type-post_type menu-item-object-services menu-item-397 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="services/rate-negotiation/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Rate Negotiation</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-399"
-                      className="menu-item menu-item-type-post_type menu-item-object-services menu-item-399 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="services/safety-dot-compliance/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">SAFETY &amp; DOT compliance</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-433"
-                      className="menu-item menu-item-type-post_type menu-item-object-services menu-item-433 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="services/ifta/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">IFTA Reporting</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-534"
-                      className="menu-item menu-item-type-post_type menu-item-object-services menu-item-534 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="services/company-formation/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Company Formation</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-1201"
-                      className="menu-item menu-item-type-post_type menu-item-object-services menu-item-1201 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="services/trucking-invoice-service/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Trucking Invoice Service</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-1200"
-                      className="menu-item menu-item-type-post_type menu-item-object-services menu-item-1200 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="services/truck-document-management/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Truck Document Management</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-1199"
-                      className="menu-item menu-item-type-post_type menu-item-object-services menu-item-1199 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="services/trucking-document-dispatch-service/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">
-                          Trucking Document Dispatch Service
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li
-                  id="menu-item-310"
-                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-310 nav-item"
-                >
-                  <a
-                    href="trucks/index.html"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    className="dropdown-toggle nav-link"
-                    id="menu-item-dropdown-310"
-                    data-target="#menu-item-dropdown-310"
-                  >
-                    <span itemProp="name">Truck types</span>
-                  </a>
-                  <ul
-                    className="dropdown-menu"
-                    aria-labelledby="menu-item-dropdown-310"
-                  >
-                    <li
-                      id="menu-item-441"
-                      className="menu-item menu-item-type-post_type menu-item-object-trucks menu-item-441 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="trucks/dry-van/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Dry Van</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-440"
-                      className="menu-item menu-item-type-post_type menu-item-object-trucks menu-item-440 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="trucks/step-deck/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Step Deck</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-439"
-                      className="menu-item menu-item-type-post_type menu-item-object-trucks menu-item-439 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="trucks/reefer/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Reefer</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-438"
-                      className="menu-item menu-item-type-post_type menu-item-object-trucks menu-item-438 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="trucks/flatbed/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Flatbed</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-825"
-                      className="menu-item menu-item-type-post_type menu-item-object-trucks menu-item-825 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="trucks/power-only-dispatch/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Power Only</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-1063"
-                      className="menu-item menu-item-type-post_type menu-item-object-trucks menu-item-1063 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="trucks/hotshot/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Hotshot</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-1204"
-                      className="menu-item menu-item-type-post_type menu-item-object-trucks menu-item-1204 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="trucks/boxtruck/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Boxtruck</span>
-                      </a>
-                    </li>
-                    <li
-                      id="menu-item-1871"
-                      className="menu-item menu-item-type-post_type menu-item-object-trucks menu-item-1871 nav-item"
-                    >
-                      <a
-                        itemProp="url"
-                        href="trucks/straight-truck/index.html"
-                        className="dropdown-item"
-                      >
-                        <span itemProp="name">Straight Truck</span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li
-                  id="menu-item-311"
-                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-311 nav-item"
-                >
-                  <a
-                    itemProp="url"
-                    href="how-to-start/index.html"
-                    className="nav-link"
-                  >
-                    <span itemProp="name">How to start</span>
-                  </a>
-                </li>
-                <li
-                  id="menu-item-1603"
-                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1603 nav-item"
-                >
-                  <a
-                    itemProp="url"
-                    href="for-shippers-and-brokers/index.html"
-                    className="nav-link"
-                  >
-                    <span itemProp="name">Shippers</span>
-                  </a>
-                </li>
-                <li
-                  id="menu-item-309"
-                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-309 nav-item"
-                >
-                  <a itemProp="url" href="faq/index.html" className="nav-link">
-                    <span itemProp="name">FAQ</span>
-                  </a>
-                </li>
-                <li
-                  id="menu-item-308"
-                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-308 nav-item"
-                >
-                  <a
-                    itemProp="url"
-                    href="contact-us/index.html"
-                    className="nav-link"
-                  >
-                    <span itemProp="name">Contact us</span>
-                  </a>
-                </li>
-              </ul>
-              <div className="nav-item__wrapper">
-                <div className="nav-item">
-                  <a
-                    className="nav-link btn-danger navbar__btn rounded-lg text-3xl"
-                    href="tel:3024259299"
-                  >
-                    (302) 425 92 99
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </nav>
+        <Navbar/>
         <div className="home">
           <section className="home-header">
             {/* <picture>
@@ -501,9 +37,9 @@ export default function Home() {
                 <div className="col-12 col-md-6">
                   <div className="row">
                     <h1 className="h1 home-header__title archivo">
-                      <span className="archivo font-bold text-[95px] tracking-wide">Freight</span>
-                      <span className="archivo font-bold text-[95px] tracking-wide">Dispatch</span>
-                      <span className="archivo font-bold text-[95px] tracking-wide">Service</span>
+                      <span className="archivo font-bold text-[65px] lg:text-[85px] xl:text-[95px] tracking-wide">Freight</span>
+                      <span className="archivo font-bold text-[65px] lg:text-[85px] xl:text-[95px] tracking-wide">Dispatch</span>
+                      <span className="archivo font-bold text-[65px] lg:text-[85px] xl:text-[95px] tracking-wide">Service</span>
                     </h1>
                   </div>
                   <div className="row home-header__bottom">
@@ -518,7 +54,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-12 col-md-6">
+                <div className="hidden md:flex col-12 col-md-6 ">
                   <div className="form rounded-lg">
                     <div className="form__title h4 text-5xl">
                       Contact us for free setup
@@ -785,11 +321,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <section className="section-lg">
-            <div className="container">
-              <div className="home-include" />
-            </div>
-          </section>
           <section className="section-lg home-services">
             <div className="container">
               <div className="row">
@@ -1131,7 +662,7 @@ export default function Home() {
                   </div>
                   <ol className="home-get-started__list">
                     <li>
-                      <a href="contact-us/index.html" className="font-bold text-3xl">
+                      <a href="contact-us/index.html" className="font-bold text-5xl lg:text-3xl">
                         Fill out the form or call us: (302) 425 92 99
                         <span>
                           <svg className="home-get-started__img1">
@@ -1154,7 +685,7 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      <a href="how-to-start/index.html" className="font-bold text-3xl">
+                      <a href="how-to-start/index.html" className="font-bold text-5xl lg:text-3xl">
                         Upload your MC Authority, W9 Form, and Certificate <br /> of
                         Insurance
                         <span>
@@ -1178,7 +709,7 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      <a href="how-to-start/index.html" className="font-bold text-3xl">
+                      <a href="how-to-start/index.html" className="font-bold text-5xl lg:text-3xl">
                         Sign the Dispatch Agreement completed by our team
                         <span>
                           <svg className="home-get-started__img1">
@@ -1201,7 +732,7 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      <a href="how-to-start/index.html" className="font-bold text-3xl">
+                      <a href="how-to-start/index.html" className="font-bold text-5xl lg:text-3xl">
                         We are all set. Let’s get to work
                         <span>
                           <svg className="home-get-started__img1">
@@ -1605,11 +1136,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-          <section  className="section-lg">
-            <div className="container">
-              <div className="home-advantages" />
             </div>
           </section>
           {/* <section

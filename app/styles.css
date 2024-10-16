@@ -22,13 +22,25 @@
       "slnt" 0;
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
 
+header a:hover{
+    color: white;
+}
 
 .navbar-nav  li a span{
     font-size: 18px;
     font-weight: 500;
 }
-
+.side-nav a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .btn-lg{
     border-radius: 0.5rem;
 }
@@ -72,4 +84,17 @@
     white-space: pre-wrap; /* Preserves spaces and line breaks */
     overflow: visible; /* Ensures overflow is not hidden */
     font-family: "Afacad Flux", sans-serif;
+}
+@media (max-width: 768px){
+    .home-stats__icon {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px){
+    .home-header{
+        padding: 10rem;
+    }
 }

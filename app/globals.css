@@ -1732,7 +1732,7 @@ h1::before {
   padding: 6rem 0 9rem;
 }
 .section-lg {
-  padding: 7rem 0;
+  padding: 9rem 0;
 }
 .bg {
   position: absolute;
@@ -1784,7 +1784,6 @@ h1::before {
   max-width: 1280px;
   margin-right: auto;
   margin-left: auto;
-  justify-content: flex-start !important;
 }
 .navbar .navbar-brand {
   position: relative;
@@ -1859,7 +1858,6 @@ h1::before {
 }
 .navbar__btn {
   display: inline-block;
-  margin-bottom: 50px;
   padding: 1.8rem 4.4rem;
 }
 .menu-toggle {
@@ -2657,7 +2655,6 @@ h1::before {
     display: flex !important;
   }
   .home-header {
-    padding: 26.7rem 0 22.3rem;
   }
   .home-header__bottom a:first-child {
     margin-right: 2rem;
@@ -2756,9 +2753,9 @@ h1::before {
   .section {
     padding: 10rem 0 12rem;
   }
-  .section-lg {
+  /* .section-lg {
     padding: 15rem 0;
-  }
+  } */
   .h2,
   h2 {
     margin-bottom: 5rem;
@@ -2947,7 +2944,6 @@ h1::before {
 }
 @media (min-width: 576px) {
   .home-header {
-    padding: 26.7rem 0 22.3rem;
     padding-top: 100px;
   }
 }
@@ -2974,11 +2970,11 @@ h1::before {
 @media (min-width: 992px) {
   .breadcrumbs-container + .section,
   .breadcrumbs-container + .section-lg {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
   }
-  .section-lg {
+  /* .section-lg {
     padding: 4rem 0;
-  }
+  } */
 }
 .home-testimonials {
   padding-bottom: 4rem !important;
@@ -2989,9 +2985,9 @@ h1.home-header__title:before {
 .page-id-40 .home-header__inner > .row.align-center {
   align-items: center;
 }
-.page-id-40 .home-header {
+/* .page-id-40 .home-header {
   padding-top: 130px;
-}
+} */
 .navbar.fixed-top {
   position: static;
   width: 100%;
@@ -3180,11 +3176,13 @@ h1.home-header__title:before {
   margin-bottom: 0;
 }
 .form .form-check {
-  margin-top: 0 !important;
+  margin-top: 10px !important;
+}
+.form .form-check span:nth-child(2){
+  padding-left: 10px;
 }
 .form .form-check {
   margin-bottom: 0 !important;
-  padding-left: 12px;
 }
 .form-check.subscribing {
   margin-bottom: 20px !important;
