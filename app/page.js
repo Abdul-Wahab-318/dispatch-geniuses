@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { Faq } from "./components/Faq/Faq"
+import Footer from "./components/Faq/Footer"
 
 export default function Home() {
   return (
@@ -10,8 +12,8 @@ export default function Home() {
               <a href="index.html">
                 <Image
                   src={"/images/logos/logo-white.png"}
-                  width={80}
-                  height={80}
+                  width={100}
+                  height={100}
                 />
               </a>
             </div>
@@ -1098,14 +1100,12 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section
-            data-wpr-lazyrender={1}
-            className="section-lg home-get-started"
+          <section className="section-lg home-get-started"
           >
             <div className="container">
               <div className="row">
                 <div className="d-flex justify-content-between">
-                  <h2 className="home-get-started__title wow animate__animated animate__fadeInLeft">
+                  <h2 className="home-get-started__title wow animate__animated animate__fadeInLeft mb-5">
                     How To Get Started <a href="how-to-start/index.html" />
                   </h2>
                   <a
@@ -1131,7 +1131,7 @@ export default function Home() {
                   </div>
                   <ol className="home-get-started__list">
                     <li>
-                      <a href="contact-us/index.html">
+                      <a href="contact-us/index.html" className="font-bold text-3xl">
                         Fill out the form or call us: (302) 425 92 99
                         <span>
                           <svg className="home-get-started__img1">
@@ -1154,8 +1154,8 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      <a href="how-to-start/index.html">
-                        Upload your MC Authority, W9 Form, and Certificate of
+                      <a href="how-to-start/index.html" className="font-bold text-3xl">
+                        Upload your MC Authority, W9 Form, and Certificate <br /> of
                         Insurance
                         <span>
                           <svg className="home-get-started__img1">
@@ -1178,7 +1178,7 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      <a href="how-to-start/index.html">
+                      <a href="how-to-start/index.html" className="font-bold text-3xl">
                         Sign the Dispatch Agreement completed by our team
                         <span>
                           <svg className="home-get-started__img1">
@@ -1201,7 +1201,7 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      <a href="how-to-start/index.html">
+                      <a href="how-to-start/index.html" className="font-bold text-3xl">
                         We are all set. Let’s get to work
                         <span>
                           <svg className="home-get-started__img1">
@@ -1484,7 +1484,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section data-wpr-lazyrender={1} className="section-lg home-trucks bg-black">
+          <section  className="section-lg home-trucks bg-black">
             <div className="container home-trucks__inner">
               <div className="row">
                 <div className="col-12">
@@ -1502,120 +1502,104 @@ export default function Home() {
               >
                 <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
                   <div className="home-trucks__card-inner">
+                    <Image src={'/images/dry-van-2.png'} layout="fill" />
                     <div className="home-trucks__card-overlay">&nbsp;</div>
                     <button
                       aria-label="button"
                       className="btn home-trucks__btn"
                     >
                       <span>Dry Van</span>
-                      <svg>
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
                     </button>
                     <a href="trucks/dry-van/index.html">&nbsp;</a>
                   </div>
                 </div>
                 <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
                   <div className="home-trucks__card-inner">
+                  <Image src={'/images/dry-van-2.png'} layout="fill" />
                     <div className="home-trucks__card-overlay">&nbsp;</div>
                     <button
                       aria-label="button"
                       className="btn home-trucks__btn"
                     >
                       <span>Step Deck</span>
-                      <svg>
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
                     </button>
                     <a href="trucks/step-deck/index.html">&nbsp;</a>
                   </div>
                 </div>
                 <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
                   <div className="home-trucks__card-inner">
+                    <Image src={'/images/dry-van-2.png'} layout="fill" />
                     <div className="home-trucks__card-overlay">&nbsp;</div>
                     <button
                       aria-label="button"
                       className="btn home-trucks__btn"
                     >
                       <span>Reefer</span>
-                      <svg>
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
                     </button>
                     <a href="trucks/reefer/index.html">&nbsp;</a>
                   </div>
                 </div>
                 <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
                   <div className="home-trucks__card-inner">
+                    <Image src={'/images/dry-van-2.png'} layout="fill" />
                     <div className="home-trucks__card-overlay">&nbsp;</div>
                     <button
                       aria-label="button"
                       className="btn home-trucks__btn"
                     >
                       <span>Flatbed</span>
-                      <svg>
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
                     </button>
                     <a href="trucks/flatbed/index.html">&nbsp;</a>
                   </div>
                 </div>
                 <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
                   <div className="home-trucks__card-inner">
+                  <Image src={'/images/dry-van-2.png'} layout="fill" />
                     <div className="home-trucks__card-overlay">&nbsp;</div>
                     <button
                       aria-label="button"
                       className="btn home-trucks__btn"
                     >
                       <span>Power Only</span>
-                      <svg>
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
                     </button>
                     <a href="trucks/power-only-dispatch/index.html">&nbsp;</a>
                   </div>
                 </div>
                 <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
                   <div className="home-trucks__card-inner">
+                  <Image src={'/images/dry-van-2.png'} layout="fill" />
                     <div className="home-trucks__card-overlay">&nbsp;</div>
                     <button
                       aria-label="button"
                       className="btn home-trucks__btn"
                     >
                       <span>Hotshot</span>
-                      <svg>
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
                     </button>
                     <a href="trucks/hotshot/index.html">&nbsp;</a>
                   </div>
                 </div>
                 <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
                   <div className="home-trucks__card-inner">
+                  <Image src={'/images/dry-van-2.png'} layout="fill" />
                     <div className="home-trucks__card-overlay">&nbsp;</div>
                     <button
                       aria-label="button"
                       className="btn home-trucks__btn"
                     >
                       <span>Boxtruck</span>
-                      <svg>
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
                     </button>
                     <a href="trucks/boxtruck/index.html">&nbsp;</a>
                   </div>
                 </div>
                 <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
                   <div className="home-trucks__card-inner">
+                  <Image src={'/images/dry-van-2.png'} layout="fill" />
                     <div className="home-trucks__card-overlay">&nbsp;</div>
                     <button
                       aria-label="button"
                       className="btn home-trucks__btn"
                     >
                       <span>Straight Truck</span>
-                      <svg>
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
                     </button>
                     <a href="trucks/straight-truck/index.html">&nbsp;</a>
                   </div>
@@ -1623,13 +1607,13 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section data-wpr-lazyrender={1} className="section-lg">
+          <section  className="section-lg">
             <div className="container">
               <div className="home-advantages" />
             </div>
           </section>
-          <section
-            data-wpr-lazyrender={1}
+          {/* <section
+            
             className="section-lg home-testimonials"
           >
             <div className="container">
@@ -1847,8 +1831,8 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </section>
-          <section data-wpr-lazyrender={1} className="section-lg home-blog">
+          </section> */}
+          <section  className="section-lg home-blog">
             <div className="container">
               <div className="row">
                 <div className="col-12 d-flex justify-content-between">
@@ -1859,7 +1843,7 @@ export default function Home() {
                     href="blog/index.html"
                     className="link link-middle wow animate__animated animate__fadeInRight"
                   >
-                    All news
+                    All news {"  "} + 
                   </a>
                 </div>
               </div>
@@ -2035,7 +2019,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section data-wpr-lazyrender={1} className="section-lg">
+          <section  className="section-lg">
             <div className="container">
               <p>
                 <i>
@@ -2056,6 +2040,9 @@ export default function Home() {
               </p>
             </div>
           </section>
+
+          <Faq/>
+           <Footer/>        
         </div>
       </div>
     </div>
