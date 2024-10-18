@@ -1,100 +1,151 @@
 .afacad-flux {
-    font-family: "Afacad Flux", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
 }
-.archivo{
-    font-family: "Archivo", "Afacad Flux" , sans-serif !important;
-    font-optical-sizing: auto;
-    font-variation-settings:
-      "wdth" 100;
+.archivo {
+  font-family: "Archivo", "Afacad Flux", sans-serif !important;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
 }
 
-*{
-    font-family: "Afacad Flux", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
+* {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
 }
 
 header a {
-    color: white;
-    text-decoration: none;
-    padding: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
 }
 
-header a:hover{
-    color: white;
+header a:hover {
+  color: white;
 }
 
-.navbar-nav  li a span{
-    font-size: 18px;
-    font-weight: 500;
+.navbar-nav li a span {
+  font-size: 18px;
+  font-weight: 500;
 }
 .side-nav a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-.btn-lg{
-    border-radius: 0.5rem;
-}
-
-.home-services__item::after{
-    content: '+';
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 40px;
-    transform: translateY(-50%);
-    font-size: 40px;
+.btn-lg {
+  border-radius: 0.5rem;
 }
 
-.home-services__item::before{
-    content: '>';
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 0px;
-    transform: translateY(-50%);
-    font-size: 40px;
-    transition: all 100ms ease;
-    opacity: 0;
+.home-services__item::after {
+  content: "+";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  font-size: 40px;
 }
 
-
-.home-services__item:hover::before{
-    opacity: 1 ;
-    color: white ;
-    right: 40px;
-    z-index : 100
+.home-services__item::before {
+  content: ">";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  font-size: 40px;
+  transition: all 100ms ease;
+  opacity: 0;
 }
 
-.home-services__item:hover::after{
-    opacity: 0;
+.home-services__item:hover::before {
+  opacity: 1;
+  color: white;
+  right: 40px;
+  z-index: 100;
+}
+
+.home-services__item:hover::after {
+  opacity: 0;
+}
+
+.breadcrumbs {
+  padding: 1.3rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.breadcrumbs span {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.about__buttons {
+  padding-top: 1rem;
+}
+.about__buttons a {
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  width: 100%;
+}
+.about__buttons a:last-child {
+  margin-right: 0;
+}
+.header {
+  position: relative;
+  height: 25rem;
+}
+.header__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1280px;
+}
+.header__banner {
+  position: relative;
+  top: 12rem;
+  padding: 2rem;
+  display: inline-block;
+  width: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header__banner-link {
+  display: block;
+  text-decoration: none;
+  font-size: 2.6rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.header__banner-link:hover {
+  color: #000;
 }
 
 .answer {
-    overflow-wrap: break-word; /* Breaks long words */
-    white-space: pre-wrap; /* Preserves spaces and line breaks */
-    overflow: visible; /* Ensures overflow is not hidden */
-    font-family: "Afacad Flux", sans-serif;
+  overflow-wrap: break-word; /* Breaks long words */
+  white-space: pre-wrap; /* Preserves spaces and line breaks */
+  overflow: visible; /* Ensures overflow is not hidden */
+  font-family: "Afacad Flux", sans-serif;
 }
-@media (max-width: 768px){
-    .home-stats__icon {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
+@media (max-width: 768px) {
+  .home-stats__icon {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
 }
 
-@media (max-width: 576px){
-    .home-header{
-        padding: 10rem;
-    }
+@media (max-width: 576px) {
+  .container {
+    padding: 0rem 20px;
+  }
+  .home-header {
+    padding: 10rem;
+  }
+  .home-trucks__btn {
+    left: 10px;
+  }
 }

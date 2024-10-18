@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <div className="home page-template page-template-index page-template-index-php page page-id-40">
       <div className="main-wrapper">
-        <Navbar/>
         <div className="home">
           <section className="home-header">
             {/* <picture>
@@ -579,7 +578,6 @@ export default function Home() {
             </div>
           </div> */}
           <section  className="section-lg home-stats">
-
             <div className="container home-stats__inner">
               <div className="row">
                 <div className="col-12">
@@ -1138,226 +1136,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* <section
-            
-            className="section-lg home-testimonials"
-          >
-            <div className="container">
-              <div className="row">
-                <div className="d-flex justify-content-between">
-                  <div className="h2 wow animate__animated animate__fadeInLeft">
-                    Testimonials <a href="testimonials/index.html" />
-                  </div>
-                  <a
-                    className="link link-middle d-none d-lg-block wow animate__animated animate__fadeInRight"
-                    href="testimonials/index.html"
-                  >
-                    All testimonials
-                  </a>
-                </div>
-              </div>
-              <div
-                className="row wow animate__animated animate__fadeIn"
-                data-wow-delay=".7s"
-                data-wow-duration="2.5s"
-              >
-                <div className="col-12">
-                  <div
-                    id="carouselExampleIndicators"
-                    className="carousel slide"
-                    data-ride="carousel"
-                  >
-                    <div className="carousel-inner">
-                      <div
-                        className="carousel-item active"
-                        data-interval={3000}
-                      >
-                        <div className="home-testimonials__slide d-md-flex">
-                          <div className="home-testimonials__left"></div>
-                          <div className="home-testimonials__right">
-                            <div className="h3 home-testimonials__title">
-                              Mike Sountris
-                            </div>
-                            <div className="p2 home-testimonials__subtitle">
-                              M&amp;L Transport LLC, MC # 25167
-                            </div>
-                            <p>
-                              Logity Dispatch is Awesome-
-                              <br />
-                              This company is everything a truck driver should
-                              expect from a dispatch company. They negotiate
-                              with the brokers to get great rates, they call you
-                              to offer loads for the next day and they handle
-                              getting revised rate confirmation for detention
-                              pay &amp; lay overs. I'm glad to have them working
-                              for our company!
-                            </p>
-                            <div className="home-testimonials__decor">
-                              <svg>
-                                <use xlinkHref="#home-testimonials-decor" />
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="carousel-item" data-interval={3000}>
-                        <div className="home-testimonials__slide d-md-flex">
-                          <div className="home-testimonials__left"></div>
-                          <div className="home-testimonials__right">
-                            <div className="h3 home-testimonials__title">
-                              Jay Sanders
-                            </div>
-                            <div className="p2 home-testimonials__subtitle">
-                              Drive Logistics, MC # 1106770
-                            </div>
-                            <p>
-                              Place my trucking business in Logity Dispatch's
-                              hands and haven't needed another dispatcher since.
-                              Outstanding Communication, very knowledgeable of
-                              the business, and they don't break the bank on
-                              percentage. Worth way more than other companies
-                              charging 10+ percent. Thank you, guys.
-                            </p>
-                            <div className="home-testimonials__decor">
-                              <svg>
-                                <use xlinkHref="#home-testimonials-decor" />
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="carousel-item" data-interval={3000}>
-                        <div className="home-testimonials__slide d-md-flex">
-                          <div className="home-testimonials__left"></div>
-                          <div className="home-testimonials__right">
-                            <div className="h3 home-testimonials__title">
-                              Eric Freeman
-                            </div>
-                            <div className="p2 home-testimonials__subtitle">
-                              MC # 104970
-                            </div>
-                            <p>
-                              Logity has been very good for my trucking company,
-                              very strong negotiators.
-                            </p>
-                            <div className="home-testimonials__decor">
-                              <svg>
-                                <use xlinkHref="#home-testimonials-decor" />
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="carousel-item" data-interval={3000}>
-                        <div className="home-testimonials__slide d-md-flex">
-                          <div className="home-testimonials__left"></div>
-                          <div className="home-testimonials__right">
-                            <div className="h3 home-testimonials__title">
-                              Andrei Chirkov
-                            </div>
-                            <div className="p2 home-testimonials__subtitle">
-                              Trucking Alliance LLC, MC # 125359
-                            </div>
-                            <p>
-                              We have been working with Logity Dispatch for a
-                              year now and I have nothing but good things to
-                              say. The service these guys provide is awesome and
-                              I don't need to waste my time searching for loads,
-                              billing and all that stuff. Communication,
-                              support, market knowledge are on high level and
-                              these guys worth the percentage they charge.
-                            </p>
-                            <div className="home-testimonials__decor">
-                              <svg>
-                                <use xlinkHref="#home-testimonials-decor" />
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="home-testimonials__carousel-bottom">
-                      <div className="d-none d-lg-block home-testimonials__l">
-                        &nbsp;
-                      </div>
-                      <div className="home-testimonials__r">
-                        <ol className="carousel-indicators">
-                          <li
-                            data-target="#carouselExampleIndicators"
-                            data-slide-to={0}
-                            className="active"
-                          />
-                          <li
-                            data-target="#carouselExampleIndicators"
-                            data-slide-to={1}
-                            className=""
-                          />
-                          <li
-                            data-target="#carouselExampleIndicators"
-                            data-slide-to={2}
-                            className=""
-                          />
-                          <li
-                            data-target="#carouselExampleIndicators"
-                            data-slide-to={3}
-                            className=""
-                          />
-                        </ol>
-                        <div className="home-testimonials__carousel-controls">
-                          <a
-                            className="carousel-control-prev"
-                            href="#carouselExampleIndicators"
-                            role="button"
-                            data-slide="prev"
-                          >
-                            <svg
-                              width={51}
-                              height={8}
-                              viewBox="0 0 51 8"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M0.646446 3.64644C0.451183 3.8417 0.451183 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.73079 4.34027 7.73079 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82842L1.70711 4L4.53553 1.17157C4.7308 0.976307 4.7308 0.659724 4.53553 0.464462C4.34027 0.2692 4.02369 0.2692 3.82843 0.464462L0.646446 3.64644ZM51 3.5L1 3.5L1 4.5L51 4.5L51 3.5Z"
-                                fill="inherit"
-                              />
-                            </svg>
-                          </a>
-                          <a
-                            className="carousel-control-next"
-                            href="#carouselExampleIndicators"
-                            role="button"
-                            data-slide="next"
-                          >
-                            <svg
-                              width={51}
-                              height={8}
-                              viewBox="0 0 51 8"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M50.3536 4.35355C50.5488 4.15829 50.5488 3.8417 50.3536 3.64644L47.1716 0.464462C46.9763 0.2692 46.6597 0.2692 46.4645 0.464462C46.2692 0.659724 46.2692 0.976307 46.4645 1.17157L49.2929 4L46.4645 6.82842C46.2692 7.02369 46.2692 7.34027 46.4645 7.53553C46.6597 7.73079 46.9763 7.73079 47.1716 7.53553L50.3536 4.35355ZM4.37114e-08 4.5L50 4.5L50 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z"
-                                fill="inherit"
-                              />
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <a
-                  className="link d-block d-lg-none mt-5 text-center"
-                  href="testimonials/index.html"
-                >
-                  All testimonials
-                </a>
-              </div>
-            </div>
-          </section> */}
           <section  className="section-lg home-blog">
             <div className="container">
               <div className="row">
@@ -1566,9 +1344,7 @@ export default function Home() {
               </p>
             </div>
           </section>
-
-          <Faq/>
-           <Footer/>        
+          <Faq/>     
         </div>
       </div>
     </div>

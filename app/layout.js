@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import "./styles.css";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,7 +32,9 @@ export default function RootLayout({ children }) {
       <body
         className={`afacad-flux antialiased`}
       >
+        <Navbar/>
         {children}
+        <Footer/>
       </body>
 
     </html>
