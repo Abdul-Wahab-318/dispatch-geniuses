@@ -19,7 +19,7 @@ export default function PageHeader({img_url = "/images/about-header.png"}) {
                   className="header__banner-link"
                   href="../how-to-start/index.html"
                 >
-                  from 5% of gross
+                  Starting from 5% of gross
                 </Link>
               </div>
               <div className="full-width">
@@ -27,7 +27,7 @@ export default function PageHeader({img_url = "/images/about-header.png"}) {
                   className="header__banner-link"
                   href="../how-to-start/index.html"
                 >
-                  from 5% of gross
+                  Starting from 5% of gross
                 </Link>
               </div>
             </div>

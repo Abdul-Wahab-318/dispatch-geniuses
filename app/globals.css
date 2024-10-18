@@ -2673,6 +2673,10 @@ h1::before {
     flex: 0 0 auto;
     width: 33.33333%;
   }
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;

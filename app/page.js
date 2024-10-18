@@ -11,7 +11,7 @@ export default function Home() {
         <div className="home">
           <section className="home-header">
           <video
-            src="/images/video-high.mp4"
+            src="/images/video-loop.mp4"
             autoPlay
             loop
             muted
@@ -25,9 +25,9 @@ export default function Home() {
                 <div className="col-12 col-md-6">
                   <div className="row">
                     <h1 className="h1 home-header__title archivo">
-                      <span className="archivo font-bold text-[65px] lg:text-[85px] xl:text-[95px] tracking-wide">Freight</span>
+                      <span className="archivo font-bold text-[65px] lg:text-[85px] xl:text-[95px] tracking-wide">All-in-one</span>
                       <span className="archivo font-bold text-[65px] lg:text-[85px] xl:text-[95px] tracking-wide">Dispatch</span>
-                      <span className="archivo font-bold text-[65px] lg:text-[85px] xl:text-[95px] tracking-wide">Service</span>
+                      <span className="archivo font-bold text-[65px] lg:text-[85px] xl:text-[95px] tracking-wide">Partner</span>
                     </h1>
                   </div>
                   <div className="row home-header__bottom">
@@ -333,7 +333,7 @@ export default function Home() {
                 data-wow-delay=".5s"
                 data-wow-duration="2.5s"
               >
-                <div className="col-12 col-md-6 home-services__item-wrap">
+                <div className="col-12 col-md-3 home-services__item-wrap">
                   <div className="home-services__item d-flex flex-column justify-content-center">
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="home-services__item-left">
@@ -360,7 +360,7 @@ export default function Home() {
                     <a href="services/dispatching/index.html" />
                   </div>
                 </div>
-                <div className="col-12 col-md-6 home-services__item-wrap">
+                <div className="col-12 col-md-3 home-services__item-wrap">
                   <div className="home-services__item d-flex flex-column justify-content-center">
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="home-services__item-left">
@@ -385,7 +385,7 @@ export default function Home() {
                     <a href="services/billing/index.html" />
                   </div>
                 </div>
-                <div className="col-12 col-md-6 home-services__item-wrap">
+                <div className="col-12 col-md-3 home-services__item-wrap">
                   <div className="home-services__item d-flex flex-column justify-content-center">
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="home-services__item-left">
@@ -412,7 +412,7 @@ export default function Home() {
                     <a href="services/document-management-paperwork/index.html" />
                   </div>
                 </div>
-                <div className="col-12 col-md-6 home-services__item-wrap">
+                <div className="col-12 col-md-3 home-services__item-wrap">
                   <div className="home-services__item d-flex flex-column justify-content-center">
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="home-services__item-left">
@@ -437,7 +437,7 @@ export default function Home() {
                     <a href="services/factoring-service/index.html" />
                   </div>
                 </div>
-                <div className="col-12 col-md-6 home-services__item-wrap">
+                <div className="col-12 col-md-3 home-services__item-wrap">
                   <div className="home-services__item d-flex flex-column justify-content-center">
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="home-services__item-left">
@@ -462,7 +462,7 @@ export default function Home() {
                     <a href="services/rate-negotiation/index.html" />
                   </div>
                 </div>
-                <div className="col-12 col-md-6 home-services__item-wrap">
+                <div className="col-12 col-md-3 home-services__item-wrap">
                   <div className="home-services__item d-flex flex-column justify-content-center">
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="home-services__item-left">
@@ -487,7 +487,7 @@ export default function Home() {
                     <a href="services/safety-dot-compliance/index.html" />
                   </div>
                 </div>
-                <div className="col-12 col-md-6 home-services__item-wrap">
+                <div className="col-12 col-md-3 home-services__item-wrap">
                   <div className="home-services__item d-flex flex-column justify-content-center">
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="home-services__item-left">
@@ -512,7 +512,7 @@ export default function Home() {
                     <a href="services/ifta/index.html" />
                   </div>
                 </div>
-                <div className="col-12 col-md-6 home-services__item-wrap">
+                <div className="col-12 col-md-3 home-services__item-wrap">
                   <div className="home-services__item d-flex flex-column justify-content-center">
                     <div className="d-flex align-items-center justify-content-between">
                       <div className="home-services__item-left">
