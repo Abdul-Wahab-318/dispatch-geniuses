@@ -10,27 +10,16 @@ export default function Home() {
       <div className="main-wrapper">
         <div className="home">
           <section className="home-header">
-            {/* <picture>
-              <source
-                srcset="
-                  https://logitydispatch.com/wp-content/uploads/2020/10/home-header-bg.webp
-                "
-                type="image/webp"
-              />
-              <source
-                srcset="
-                  https://logitydispatch.com/wp-content/uploads/2020/10/home-header-bg.jpg
-                "
-                type="image/jpeg"
-              />
-              <img
-                fetchpriority="high"
-                class="bg"
-                src="wp-content/uploads/2020/10/home-header-bg.jpg"
-                alt="Logity dispatch"
-              />
-            </picture> */}
-            <Image src={'/images/home-header-bg.jpg'} className="bg" width={1800} height={1800} />
+          <video
+            src="/images/video-high.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto" // This enables eager loading
+            style={{ width: '100%' , position : 'absolute' , top : 0 , left : 0 , objectFit : 'cover' , height : '100%' }} // Make the video responsive
+          />
+            {/* <Image src={'/images/home-header-bg.jpg'} className="bg" width={1800} height={1800} /> */}
             <div className="container home-header__inner">
               <div className="row align-center">
                 <div className="col-12 col-md-6">
@@ -45,7 +34,7 @@ export default function Home() {
                     <div className="col-12 d-sm-flex">
                       <a
                         href="tel:3024259299"
-                        className="btn btn-lg btn-danger rounded-lg flex gap-3 items-center"
+                        className="btn btn-lg btn-danger rounded-lg inline-flex gap-3 items-center"
                       >
                       <Image src={'/images/icons/phone.png'} width={24} height={24} />
                         (302) 425 92 99
