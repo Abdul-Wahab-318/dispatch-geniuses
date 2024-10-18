@@ -19,13 +19,13 @@ export default function About() {
             <div className="breadcrumbs">
               <span>
                 <span>
-                  <Link href="../index.html" className="text-2xl me-2">
+                  <Link href="../index.html" className="text-3xl me-2">
                     Home
                   </Link>
                 </span>{" "}
                 <span className="text-4xl">»</span>
                 <span
-                  className="breadcrumb_last ms-2 text-2xl"
+                  className="breadcrumb_last ms-2 text-3xl"
                   aria-current="page"
                 >
                   About the company
