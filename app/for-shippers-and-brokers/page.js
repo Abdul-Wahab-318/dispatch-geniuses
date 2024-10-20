@@ -9,7 +9,7 @@ import EmailBtn from "../components/emailBtn"
 
 export default function Shippers() {
   return (
-    <div className="main-wrapper">
+    <div className="main-wrapper shipper-broker-page">
       <PageHeader />
       <div className="container breadcrumbs-container">
         <div className="row">

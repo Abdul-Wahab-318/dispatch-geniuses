@@ -71,7 +71,7 @@ export const Faq = () => {
                         <AccordionItem value={`item-${idx+1}`} key={content.question} >
                             <AccordionTrigger className="text-5xl my-6 text-left">{idx+1}. { " " } {content.question} </AccordionTrigger>
                             <AccordionContent className="text-3xl py-3 mb-3">
-                                <pre className="answer">{content.answer}</pre>
+                                <pre className="answer text-4xl xl:text-3xl">{content.answer}</pre>
                             </AccordionContent>
                       </AccordionItem>
                     )

@@ -2,7 +2,7 @@ import React from "react"
 
 export default function ContactForm() {
   return (
-    <div className="form rounded-lg form-box-shadow my-10">
+    <div className="form rounded-lg form-box-shadow h-full">
       <div className="form__title h4 text-5xl">Contact us for free setup</div>
       <div className="wpcf7 no-js" id="wpcf7-f88-o1" lang="en-US" dir="ltr">
         <div className="screen-reader-response">
