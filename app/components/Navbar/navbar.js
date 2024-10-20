@@ -3,12 +3,20 @@
  * @see https://v0.dev/t/CowzfwdSDEY
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
+"use client"
+import { useState } from "react"
 import Link from "next/link"
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export default function Navbar() {
+
+  const [isSheetOpen, setIsSheetOpen] = useState(false)
+
+  const closeSheet = () => setIsSheetOpen(false)
+  const openSheet = () => setIsSheetOpen(true)
+
   return (
     <header className="bg-black ">
       <div className="navbar__inner flex items-center justify-between px-4 py-2 ">
@@ -80,8 +88,8 @@ export default function Navbar() {
             (302) 425 92 99
           </Link>
         </div>
-        <Sheet>
-          <SheetTrigger asChild>
+        <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
+          <SheetTrigger asChild onClick={openSheet}>
             <Button variant="transparent" className="md:hidden">
               <svg width="50" height="50" viewBox="0 0 100 100">
                 <path
@@ -101,13 +109,19 @@ export default function Navbar() {
             </Button>
           </SheetTrigger>
           <SheetContent side="left">
-            <Image
-              src={"/images/logos/logo-lg-black.svg"}
-              width={200}
-              height={100}
-              style={{'transform' : 'translateY(-50px)'}}
-            />
-            <div className="grid w-[200px] p-4">
+            <Link
+                href="/"
+                prefetch={false}
+                onClick={closeSheet}
+              >                
+              <Image
+                src={"/images/logos/logo-lg-black.svg"}
+                width={200}
+                height={100}
+                style={{'transform' : 'translateY(-50px)'}}
+              />
+            </Link>
+            <div className="grid w-[200px] p-4" onClick={closeSheet} >
               <Link
                 href="/about"
                 className="text-6xl my-8 no-underline text-black  font-medium   underline-offset-4"
@@ -162,45 +176,5 @@ export default function Navbar() {
         </Sheet>
       </div>
     </header>
-  )
-}
-
-function MenuIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="50"
-      height="50"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <line x1="4" x2="20" y1="12" y2="12" />
-      <line x1="4" x2="20" y1="6" y2="6" />
-      <line x1="4" x2="20" y1="18" y2="18" />
-    </svg>
-  )
-}
-
-function MountainIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>
   )
 }
