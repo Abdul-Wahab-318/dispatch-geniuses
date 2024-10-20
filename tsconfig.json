@@ -20,7 +20,13 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "baseUrl": ".", // Add this line to set the root directory
+    "paths": {
+      "@/components/*": ["./components/*"], // Add this alias for ShadCN
+      "@/app/*": ["./app/*"], // Optional, if you also want to alias the app folder,
+      "@/lib/*" : ["./lib/*"]
+    }
   },
   "include": [
     "next-env.d.ts",

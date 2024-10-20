@@ -5,6 +5,50 @@ import Navbar from "./components/navbar"
 import Link from "next/link"
 
 export default function Home() {
+
+  const services = [
+    {
+      'name' : 'Truck Dispatching' ,
+      'href' : '/services/dispatching' ,
+      'icon' : '/images/icons/dispatch-service-icon.png'
+    } ,
+    {
+      'name' : 'Billing' ,
+      'href' : '/services/billing' ,
+      'icon' : '/images/icons/billing-service-icon.png'
+    } ,
+    {
+      'name' : 'Document Management' ,
+      'href' : '/services/document-management-paperwork' ,
+      'icon' : '/images/icons/document-service-icon.png'
+    } ,
+    {
+      'name' : 'Business Expansion' ,
+      'href' : '/services/business-expansion' ,
+      'icon' : '/images/icons/business-service-icon.png'
+    } ,
+    {
+      'name' : 'DOT Compliance' ,
+      'href' : '/services/safety-dot-compliance' ,
+      'icon' : '/images/icons/dot-service-icon.png'
+    } ,
+    {
+      'name' : 'IFTA' ,
+      'href' : '/services/ifta' ,
+      'icon' : '/images/icons/ifta-service-icon.png'
+    } ,
+    {
+      'name' : 'Factoring , ELD Insurance' ,
+      'href' : '/services/factoring-eld-insurance' ,
+      'icon' : '/images/icons/eld-service-icon.png'
+    } ,
+    {
+      'name' : 'Company Formation' ,
+      'href' : '/services/company-formation' ,
+      'icon' : '/images/icons/company-service-icon.png'
+    } ,
+  ]
+
   return (
     <div className="home page-template page-template-index page-template-index-php page page-id-40">
       <div className="main-wrapper">
@@ -333,210 +377,30 @@ export default function Home() {
                 data-wow-delay=".5s"
                 data-wow-duration="2.5s"
               >
-                <div className="col-12 col-md-3 home-services__item-wrap">
-                  <div className="home-services__item d-flex flex-column justify-content-center">
-                    <div className="d-flex align-items-center justify-content-between">
-                      <div className="home-services__item-left">
-                        <div className="home-services__left-txt">
-                          <div className="home-services__item-num">01</div>
-                          <div className="h4 home-services__item-name">
-                            Truck
-                            <br />
-                            dispatching
+
+                {
+                  services.map((service , ind) => {
+                    return(
+                      <div className="col-md-6 col-lg-3 home-services__item-wrap">
+                        <div className="home-services__item d-flex flex-column justify-content-center items-center">
+                          <div className="d-flex align-items-center justify-content-between">
+                            <div className="home-services__item-left ">
+                              <div className="home-services__left-txt">
+                                <div className="home-services__item-num text-center flex justify-content-center">
+                                  <Image src={service.icon} width={140} height={140} />
+                                </div>
+                                <div className="h4 home-services__item-name text-center text-5xl md:text-5xl lg:text-4xl">
+                                  {service.name}
+                                </div>
+                              </div>
+                            </div>
                           </div>
+                          <Link href={service.href} />
                         </div>
-                      </div>
-                      <div className="home-services__item-right d-flex flex-column justify-content-center align-items-center">
-                        <svg className="home-services__icon1">
-                          <use xlinkHref="#plus" />
-                        </svg>
-                      </div>
                     </div>
-                    <div className="home-services__item-shape">
-                      <svg className="home-services__icon2">
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
-                    </div>
-                    <a href="services/dispatching/index.html" />
-                  </div>
-                </div>
-                <div className="col-12 col-md-3 home-services__item-wrap">
-                  <div className="home-services__item d-flex flex-column justify-content-center">
-                    <div className="d-flex align-items-center justify-content-between">
-                      <div className="home-services__item-left">
-                        <div className="home-services__left-txt">
-                          <div className="home-services__item-num">02</div>
-                          <div className="h4 home-services__item-name">
-                            Billing
-                          </div>
-                        </div>
-                      </div>
-                      <div className="home-services__item-right d-flex flex-column justify-content-center align-items-center">
-                        <svg className="home-services__icon1">
-                          <use xlinkHref="#plus" />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="home-services__item-shape">
-                      <svg className="home-services__icon2">
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
-                    </div>
-                    <a href="services/billing/index.html" />
-                  </div>
-                </div>
-                <div className="col-12 col-md-3 home-services__item-wrap">
-                  <div className="home-services__item d-flex flex-column justify-content-center">
-                    <div className="d-flex align-items-center justify-content-between">
-                      <div className="home-services__item-left">
-                        <div className="home-services__left-txt">
-                          <div className="home-services__item-num">03</div>
-                          <div className="h4 home-services__item-name">
-                            Document Management
-                            <br />
-                            &amp; Paperwork
-                          </div>
-                        </div>
-                      </div>
-                      <div className="home-services__item-right d-flex flex-column justify-content-center align-items-center">
-                        <svg className="home-services__icon1">
-                          <use xlinkHref="#plus" />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="home-services__item-shape">
-                      <svg className="home-services__icon2">
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
-                    </div>
-                    <a href="services/document-management-paperwork/index.html" />
-                  </div>
-                </div>
-                <div className="col-12 col-md-3 home-services__item-wrap">
-                  <div className="home-services__item d-flex flex-column justify-content-center">
-                    <div className="d-flex align-items-center justify-content-between">
-                      <div className="home-services__item-left">
-                        <div className="home-services__left-txt">
-                          <div className="home-services__item-num">04</div>
-                          <div className="h4 home-services__item-name">
-                            Factoring service
-                          </div>
-                        </div>
-                      </div>
-                      <div className="home-services__item-right d-flex flex-column justify-content-center align-items-center">
-                        <svg className="home-services__icon1">
-                          <use xlinkHref="#plus" />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="home-services__item-shape">
-                      <svg className="home-services__icon2">
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
-                    </div>
-                    <a href="services/factoring-service/index.html" />
-                  </div>
-                </div>
-                <div className="col-12 col-md-3 home-services__item-wrap">
-                  <div className="home-services__item d-flex flex-column justify-content-center">
-                    <div className="d-flex align-items-center justify-content-between">
-                      <div className="home-services__item-left">
-                        <div className="home-services__left-txt">
-                          <div className="home-services__item-num">05</div>
-                          <div className="h4 home-services__item-name">
-                            Rate negotiation
-                          </div>
-                        </div>
-                      </div>
-                      <div className="home-services__item-right d-flex flex-column justify-content-center align-items-center">
-                        <svg className="home-services__icon1">
-                          <use xlinkHref="#plus" />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="home-services__item-shape">
-                      <svg className="home-services__icon2">
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
-                    </div>
-                    <a href="services/rate-negotiation/index.html" />
-                  </div>
-                </div>
-                <div className="col-12 col-md-3 home-services__item-wrap">
-                  <div className="home-services__item d-flex flex-column justify-content-center">
-                    <div className="d-flex align-items-center justify-content-between">
-                      <div className="home-services__item-left">
-                        <div className="home-services__left-txt">
-                          <div className="home-services__item-num">06</div>
-                          <div className="h4 home-services__item-name">
-                            SAFETY / DOT compliance
-                          </div>
-                        </div>
-                      </div>
-                      <div className="home-services__item-right d-flex flex-column justify-content-center align-items-center">
-                        <svg className="home-services__icon1">
-                          <use xlinkHref="#plus" />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="home-services__item-shape">
-                      <svg className="home-services__icon2">
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
-                    </div>
-                    <a href="services/safety-dot-compliance/index.html" />
-                  </div>
-                </div>
-                <div className="col-12 col-md-3 home-services__item-wrap">
-                  <div className="home-services__item d-flex flex-column justify-content-center">
-                    <div className="d-flex align-items-center justify-content-between">
-                      <div className="home-services__item-left">
-                        <div className="home-services__left-txt">
-                          <div className="home-services__item-num">07</div>
-                          <div className="h4 home-services__item-name">
-                            IFTA
-                          </div>
-                        </div>
-                      </div>
-                      <div className="home-services__item-right d-flex flex-column justify-content-center align-items-center">
-                        <svg className="home-services__icon1">
-                          <use xlinkHref="#plus" />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="home-services__item-shape">
-                      <svg className="home-services__icon2">
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
-                    </div>
-                    <a href="services/ifta/index.html" />
-                  </div>
-                </div>
-                <div className="col-12 col-md-3 home-services__item-wrap">
-                  <div className="home-services__item d-flex flex-column justify-content-center">
-                    <div className="d-flex align-items-center justify-content-between">
-                      <div className="home-services__item-left">
-                        <div className="home-services__left-txt">
-                          <div className="home-services__item-num">08</div>
-                          <div className="h4 home-services__item-name">
-                            Company Formation
-                          </div>
-                        </div>
-                      </div>
-                      <div className="home-services__item-right d-flex flex-column justify-content-center align-items-center">
-                        <svg className="home-services__icon1">
-                          <use xlinkHref="#plus" />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="home-services__item-shape">
-                      <svg className="home-services__icon2">
-                        <use xlinkHref="#arrow-right" />
-                      </svg>
-                    </div>
-                    <a href="services/company-formation/index.html" />
-                  </div>
-                </div>
+                    )
+                  })
+                }
               </div>
             </div>
           </section>

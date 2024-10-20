@@ -2092,7 +2092,7 @@ h1::before {
 .home-services__item {
   position: relative;
   height: 200px;
-  padding: 0 5rem;
+  padding: 0 2rem;
   background-color: #000;
   cursor: pointer;
   border-radius: 0.6rem;

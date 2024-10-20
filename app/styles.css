@@ -41,40 +41,38 @@ header a:hover {
 .btn-lg {
   border-radius: 0.5rem;
 }
-
+.home-services__item{
+  transition: all 200ms ease-in-out;
+}
 .home-services__item::after {
-  content: "+";
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  transform: translateY(-50%);
-  font-size: 40px;
+display: none;
 }
 
 .home-services__item::before {
-  content: ">";
-  display: block;
+  display: none;
+}
+.home-services__item:hover{
+  background-color: #009AFF;
+}
+
+.home-services__item-name{
+  position: relative;
+}
+.home-services__item-name::after{
+  content: '';
   position: absolute;
-  top: 50%;
-  right: 0px;
-  transform: translateY(-50%);
-  font-size: 40px;
-  transition: all 100ms ease;
-  opacity: 0;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 2px;
+  background-color: #009AFF;
+  transition: all 200ms ease-in-out;
 }
 
-.home-services__item:hover::before {
-  opacity: 1;
-  color: white;
-  right: 40px;
-  z-index: 100;
+.home-services__item:hover .home-services__item-name::after{
+  background-color: white;
 }
-
-.home-services__item:hover::after {
-  opacity: 0;
-}
-
 .breadcrumbs {
   padding: 1.3rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
