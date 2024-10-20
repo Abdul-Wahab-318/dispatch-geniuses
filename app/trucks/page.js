@@ -49,7 +49,7 @@ export default function Services() {
           </div>
           <div className="row services__row">
             <div className="col-12 col-md-6 services__col">
-                <Image src={'/images/step-deck-1.png'} layout="fill" objectFit="cover" />
+                <Image src={'/images/step-deck-1.avif'} layout="fill" objectFit="cover" />
             </div>
             <div className="col-12 col-md-6 services__col-right">
               <div className="services__txt">
@@ -65,7 +65,7 @@ export default function Services() {
           </div>
           <div className="row services__row">
             <div className="col-12 col-md-6 services__col">
-            <Image src={'/images/reefer-1.png'} layout="fill" objectFit="cover" />
+            <Image src={'/images/reefer-1.avif'} layout="fill" objectFit="cover" />
             </div>
             <div className="col-12 col-md-6 services__col-right">
               <div className="services__txt">
@@ -81,7 +81,7 @@ export default function Services() {
           </div>
           <div className="row services__row">
             <div className="col-12 col-md-6 services__col">
-            <Image src={'/images/flatbed-1.png'} layout="fill" objectFit="cover" />
+            <Image src={'/images/flatbed-1.avif'} layout="fill" objectFit="cover" />
             </div>
             <div className="col-12 col-md-6 services__col-right">
               <div className="services__txt">
@@ -102,7 +102,7 @@ export default function Services() {
           </div>
           <div className="row services__row">
             <div className="col-12 col-md-6 services__col">
-            <Image src={'/images/power-only-1.png'} layout="fill" objectFit="cover" />
+            <Image src={'/images/power-only-1.avif'} layout="fill" objectFit="cover" />
               
             </div>
             <div className="col-12 col-md-6 services__col-right">
@@ -119,7 +119,7 @@ export default function Services() {
           </div>
           <div className="row services__row">
             <div className="col-12 col-md-6 services__col">
-            <Image src={'/images/hot-shot-1.png'} layout="fill" objectFit="cover" />
+            <Image src={'/images/hot-shot-1.avif'} layout="fill" objectFit="cover" />
             </div>
             <div className="col-12 col-md-6 services__col-right">
               <div className="services__txt">

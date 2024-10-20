@@ -2129,7 +2129,7 @@ h1::before {
 .home-stats {
   position: relative;
   color: #fff;
-  background-image: url("../public/images/stats-bg.jpg");
+  background-image: url("../public/images/stats-bg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

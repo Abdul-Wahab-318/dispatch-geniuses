@@ -38,7 +38,7 @@ export default function Services() {
           <div className="row services__row section pt-0">
             <div className="col-12 col-md-6 services__col">
               <Image
-                src={"/images/truck-dispatch-1.png"}
+                src={"/images/truck-dispatch-1.avif"}
                 layout="fill"
                 objectFit="cover"
               />
@@ -68,7 +68,7 @@ export default function Services() {
           <div className="row services__row section pt-0">
             <div className="col-12 col-md-6 services__col">
               <Image
-                src={"/images/paperwork-1.png"}
+                src={"/images/paperwork-1.avif"}
                 layout="fill"
                 objectFit="cover"
               />
@@ -93,7 +93,7 @@ export default function Services() {
           <div className="row services__row section pt-0">
             <div className="col-12 col-md-6 services__col">
               <Image
-                src={"/images/invoice-1.png"}
+                src={"/images/invoice-1.avif"}
                 layout="fill"
                 objectFit="cover"
               />
@@ -121,7 +121,7 @@ export default function Services() {
           <div className="row services__row section pt-0">
             <div className="col-12 col-md-6 services__col">
               <Image
-                src={"/images/business-expansion-1.png"}
+                src={"/images/business-expansion-1.webp"}
                 layout="fill"
                 objectFit="cover"
               />
@@ -146,7 +146,7 @@ export default function Services() {
           <div className="row services__row section py-0">
             <div className="col-12 col-md-6 services__col">
               <Image
-                src={"/images/compliance-1.png"}
+                src={"/images/compliance-1.avif"}
                 layout="fill"
                 objectFit="cover"
               />
@@ -272,7 +272,7 @@ export default function Services() {
             </div>
             <div className="col-12 col-md-6 services__col-right" >
                 <Image
-                src={"/images/company-formation-1.png"}
+                src={"/images/company-formation-1.avif"}
                 layout="fill"
                 objectFit="cover"
               />
@@ -285,7 +285,7 @@ export default function Services() {
           <div className="row services__row ">
             <div className="col-12 col-md-6 services__col ">
                 <Image
-                src={"/images/ifta-1.png"}
+                src={"/images/ifta-1.avif"}
                 layout="fill"
                 objectFit="cover"
               />
@@ -328,7 +328,7 @@ export default function Services() {
             </div>
             <div className="col-12 col-md-6 services__col-right">
                 <Image
-                src={"/images/elds-1.png"}
+                src={"/images/elds-1.avif"}
                 layout="fill"
                 objectFit="cover"
               />

@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-export default function PageHeader({img_url = "/images/about-header.png"}) {
+export default function PageHeader({img_url = "/images/about-header.webp"}) {
   return (
     <header className="header">
       <Image
