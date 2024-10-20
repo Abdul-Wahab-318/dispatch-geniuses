@@ -1,13 +1,11 @@
 import Image from "next/image"
-import Footer from "@/app/components/Footer/footer"
 import Link from "next/link"
-import Navbar from "@/app/components/navbar/Navbar"
 import "./style.css"
-import YoutubeVideo from "../components/YoutubeVideo/YoutubeVideo"
+import YoutubeVideo from "../components/YoutubeVideo/youtubeVideo"
 import ContactBtn  from "../components/contactBtn"
 import PhoneBtn from "../components/phoneBtn"
 import EmailBtn from "../components/emailBtn"
-import PageHeader from "../components/PageHeader/PageHeader"
+import PageHeader from "../components/PageHeader/pageHeader"
 
 export default function About() {
   return (
@@ -19,7 +17,7 @@ export default function About() {
             <div className="breadcrumbs">
               <span>
                 <span>
-                  <Link href="../index.html" className="text-3xl me-2">
+                  <Link href="/" className="text-3xl me-2">
                     Home
                   </Link>
                 </span>{" "}
