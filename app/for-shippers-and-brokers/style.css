@@ -1,0 +1,250 @@
+
+.article-bullets li{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.article-bullets li:last-child{
+    margin-bottom: 0;
+}
+.home-get-started__txt {
+    margin-bottom: 5rem;
+    padding-top: 1.7rem;
+    padding-bottom: 2.8rem;
+    border-bottom: 1px solid #c4c4c4;
+  }
+  .home-get-started__list {
+    margin-bottom: 5rem;
+    padding-left: 0;
+    color: #000;
+    list-style: none;
+    font-weight: 700;
+    font-size: 15px;
+    counter-reset: item;
+  }
+  .home-get-started__list li,
+  .home-get-started__list li a {
+    position: relative;
+  }
+  .home-get-started__list li a::before {
+    content: "0" counter(item) " - ";
+    position: absolute;
+    top: 2px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-top: 1.5rem;
+    counter-increment: item;
+  }
+  .home-get-started__list a {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    padding-left: 62px;
+    padding-right: 46px;
+    background-color: transparent;
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .home-get-started__list a span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6rem;
+    min-width: 6rem;
+    height: 100%;
+    background-color: transparent;
+    transition: inherit;
+  }
+  .home-get-started__list a span svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    transform: translate(-50%, -50%);
+  }
+  .home-get-started__list a:hover {
+    background-color: #fff;
+  }
+  .home-get-started__list a:hover span {
+    background-color: #009AFF;
+  }
+  .home-get-started__list a:hover .home-get-started__img1 {
+    opacity: 0;
+  }
+  .home-get-started__list a:hover .home-get-started__img2 {
+    opacity: 1;
+    fill: #fff;
+  }
+  .home-get-started__list a:hover .home-get-started__img2 svg {
+    width: 100%;
+    height: 100%;
+  }
+  .home-get-started__img1 {
+    opacity: 0;
+    transition: 0.3s;
+  }
+  .home-get-started__img2 {
+    fill: #009AFF;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .about__buttons {
+    padding-top: 1rem;
+  }
+  .about__buttons a {
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    width: 100%;
+  }
+  .about__buttons a:last-child {
+    margin-right: 0;
+  }
+
+  .article .h1 a,
+  .article h1 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .article .home-get-started__list li {
+    font-weight: 700;
+    font-family: "Logity Expanded", sans-serif;
+    font-size: 15px;
+  }
+  .article .home-get-started__list {
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+  .services-get-started.section-lg {
+    padding: 3rem 0 9rem;
+  }
+  .gotop {
+    bottom: 128px;
+  }
+  .article .h1 span,
+  .article h1 span {
+    font-size: 0.5em;
+  }
+  .brokerage {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0.5em auto 2em;
+  }
+  .brokerage .brokerage__col {
+    flex: 0 0 50%;
+    margin-top: 2em;
+  }
+  .brokerage .brokerage__head {
+    font: 700 2.125em/1 "Logity Expanded", sans-serif;
+    margin: 0.125em 0 0.75em;
+  }
+  .brokerage .brokerage__head::before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 64px;
+    height: 5px;
+    margin-bottom: 1rem;
+    background-color: #009AFF;
+    transition: background-color 0.3s;
+  }
+  .brokerage .brokerage__list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 2em;
+    padding-right: 2em;
+  }
+  .brokerage .brokerage__list .brokerage__list-item {
+    position: relative;
+    font-family: Logity, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+  }
+  .brokerage .brokerage__list .brokerage__list-item::before {
+    content: "";
+    display: block;
+    margin-right: 0;
+    width: 16px;
+    height: 16px;
+    background: var(--wpr-bg-870bc58f-c2ee-40da-96ad-ac05dcf1c23e)
+      center/contain no-repeat;
+    position: absolute;
+    left: -1.25em;
+    top: 0.5em;
+  }
+
+  .shippers-list li{
+    margin: 20px 0;
+  }
+
+  @media (max-width: 992px) {
+    .brokerage .brokerage__col {
+      flex: 1 1 100%;
+    }
+    .brokerage .brokerage__head {
+      font-size: 2.5em;
+    }
+    .brokerage .brokerage__list {
+      margin-left: 3em;
+      padding-right: 0;
+    }
+    .brokerage .brokerage__list .brokerage__list-item {
+      font-size: 2.25em;
+    }
+    .brokerage .brokerage__list .brokerage__list-item::before {
+      left: -1.5em;
+      top: 0.325em;
+    }
+  }
+  @media (max-width: 767px) {
+    .brokerage {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media (min-width: 992px) {
+    .breadcrumbs-container + .section,
+    .breadcrumbs-container + .section-lg {
+      padding-top: 5rem;
+    }
+  }
+  .section.article {
+    padding-top: 40px;
+  }
+  .container-fluid {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+  }
+  .simple__banner {
+    display: none;
+    position: relative;
+  }
+  .wpcf7-form p:empty {
+    display: none;
+  }
+  .wpcf7-form span:empty {
+    height: 0;
+  }
+  .form__title {
+    margin-bottom: 30px;
+  }
+  .gotop {
+    bottom: calc(11% - 3.75px);
+  }
+  @media (min-width: 992px) {
+    .section-lg {
+      padding: 4rem 0;
+    }
+  }
+ 

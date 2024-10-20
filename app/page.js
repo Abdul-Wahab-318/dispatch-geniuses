@@ -1,7 +1,7 @@
 import Image from "next/image"
-import { Faq } from "./components/faq"
-import Footer from "./components/footer"
-import Navbar from "./components/navbar"
+import { Faq } from "./components/Faq/faq"
+import Footer from "./components/Footer/footer"
+import Navbar from "./components/Navbar/navbar"
 import Link from "next/link"
 
 export default function Home() {
@@ -381,7 +381,7 @@ export default function Home() {
                 {
                   services.map((service , ind) => {
                     return(
-                      <div className="col-md-6 col-lg-3 home-services__item-wrap">
+                      <div className="col-md-6 col-lg-3 home-services__item-wrap" key={service.href}>
                         <div className="home-services__item d-flex flex-column justify-content-center items-center">
                           <div className="d-flex align-items-center justify-content-between">
                             <div className="home-services__item-left ">

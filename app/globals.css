@@ -1624,46 +1624,12 @@ iframe {
   -webkit-animation-name: fadeinright;
   animation-name: fadeInRight;
 }
-/* @font-face {
-  font-weight: 700;
-  font-style: normal;
-  font-family: Logity;
-  src: url(wp-content/themes/gpk-dispatch/assets/fonts/subset-Logity-Bold.woff2)
-    format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-weight: 400;
-  font-style: normal;
-  font-family: Logity;
-  src: url(https://logitydispatch.com/wp-content/themes/gpk-dispatch/assets/fonts/subset-Logity-Regular.woff2)
-    format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-weight: 700;
-  font-style: normal;
-  font-family: "Logity SemiExpanded";
-  src: url(https://logitydispatch.com/wp-content/themes/gpk-dispatch/assets/fonts/subset-Logity-SemiExpandedBold.woff2)
-    format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-weight: 700;
-  font-style: normal;
-  font-family: "Logity Expanded";
-  src: url(https://logitydispatch.com/wp-content/themes/gpk-dispatch/assets/fonts/subset-Logity-ExpandedBold.woff2)
-    format("woff2");
-  font-display: swap;
-} */
 html {
   font-size: 42%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body {
-  font-family: "Logity Expanded", sans-serif;
-}
+
 .footer__top .h2,
 .footer__top h2,
 .h1,
@@ -1697,7 +1663,6 @@ p {
   margin-bottom: 2rem;
   font-weight: 400;
   font-size: 16px;
-  font-family: Logity, sans-serif;
   line-height: 1.2;
 }
 .h1::before,
@@ -1719,7 +1684,6 @@ h1::before {
 .p2 {
   font-weight: 400;
   font-size: 15px;
-  font-family: Logity, sans-serif;
 }
 .sprites-svg-container {
   display: none;
@@ -2190,7 +2154,6 @@ h1::before {
 }
 .home-stats__name {
   font-weight: 400;
-  font-family: Logity, sans-serif;
 }
 .home-get-started__title {
   margin-bottom: 2rem;
@@ -2512,7 +2475,6 @@ h1::before {
   z-index: 14;
   font-weight: 400;
   font-size: 12px;
-  font-family: Logity, sans-serif;
 }
 .home-blog__btn {
   position: relative;
@@ -2613,7 +2575,6 @@ h1::before {
 .footer__list-title {
   margin-bottom: 4rem;
   font-weight: 700;
-  font-family: "Logity Expanded", sans-serif;
 }
 .footer__bottom {
   padding: 3.6rem 0;
@@ -2654,8 +2615,7 @@ h1::before {
   .d-sm-flex {
     display: flex !important;
   }
-  .home-header {
-  }
+
   .home-header__bottom a:first-child {
     margin-right: 2rem;
     margin-bottom: 0;

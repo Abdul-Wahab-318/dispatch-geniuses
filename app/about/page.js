@@ -1,13 +1,13 @@
 import Image from "next/image"
-import Footer from "@/app/components/footer"
+import Footer from "@/app/components/Footer/footer"
 import Link from "next/link"
-import Navbar from "@/app/components/navbar"
+import Navbar from "@/app/components/navbar/Navbar"
 import "./style.css"
-import YoutubeVideo from "../components/youtubeVideo"
+import YoutubeVideo from "../components/YoutubeVideo/YoutubeVideo"
 import ContactBtn  from "../components/contactBtn"
 import PhoneBtn from "../components/phoneBtn"
 import EmailBtn from "../components/emailBtn"
-import PageHeader from "../components/pageHeader"
+import PageHeader from "../components/PageHeader/PageHeader"
 
 export default function About() {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import PageHeader from "../components/pageHeader"
+import PageHeader from "../components/PageHeader/pageHeader"
 import "./style.css"
 import Link from "next/link"
 

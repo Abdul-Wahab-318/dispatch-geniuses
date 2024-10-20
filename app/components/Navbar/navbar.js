@@ -50,7 +50,7 @@ export default function Navbar() {
             How to start
           </Link>
           <Link
-            href="/shippers"
+            href="/for-shippers-and-brokers"
             className="text-4xl xl:text-3xl font-medium  underline-offset-4"
             prefetch={false}
           >
@@ -137,7 +137,7 @@ export default function Navbar() {
                 How to start
               </Link>
               <Link
-                href="/shippers"
+                href="/for-shippers-and-brokers"
                 className=" text-6xl my-8 no-underline text-black  font-medium  underline-offset-4"
                 prefetch={false}
               >

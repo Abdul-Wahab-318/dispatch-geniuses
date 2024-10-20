@@ -1,8 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import "./styles.css";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+import Navbar from "./components/Navbar/navbar";
+import Footer from "./components/Footer/footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com"  />
         <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
       </head>

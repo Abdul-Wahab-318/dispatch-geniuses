@@ -122,6 +122,10 @@ display: none;
   color: #000;
 }
 
+.form-box-shadow{
+  box-shadow: rgba(189, 190, 190, 0.2) 0px 8px 24px;
+}
+
 .answer {
   overflow-wrap: break-word; /* Breaks long words */
   white-space: pre-wrap; /* Preserves spaces and line breaks */
