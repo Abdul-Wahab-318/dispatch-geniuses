@@ -13,7 +13,7 @@ export default function Services() {
             <div className="breadcrumbs">
               <span>
                 <span>
-                  <Link href="/" className="text-3xl">
+                  <Link href="/truck-type//" className="text-3xl">
                     Home
                   </Link>
                 </span>
@@ -41,9 +41,9 @@ export default function Services() {
                 <p>
                 Dry van drivers often encounter long wait times at docks, inconsistent load availability, and challenges with securing profitable backhauls. These issues can impact earnings and lead to wasted time.
                 </p>
-                <a href="dry-van/index.html" className="link">
+                <Link href="/truck-type/dry-van/" className="link">
                   Read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -57,9 +57,9 @@ export default function Services() {
                 <p>
                 Step deck drivers often face challenges with oversized or awkwardly shaped freight and specialized permits. We help you avoid the stress by ensuring your loads are ready to roll, legally and efficiently.
                 </p>
-                <a href="step-deck/index.html" className="link">
+                <Link href="/truck-type/step-deck/" className="link">
                   Read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -73,9 +73,9 @@ export default function Services() {
                 <p>
                 Reefer drivers face unique challenges with temperature-sensitive freight, strict delivery windows, and the high cost of maintaining refrigeration equipment. Delays or equipment failure can lead to significant losses.
                 </p>
-                <a href="reefer/index.html" className="link">
+                <Link href="/truck-type/reefer/" className="link">
                   Read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -94,9 +94,9 @@ export default function Services() {
                   you with the dispatch services you need to connect you and
                   your flatbed with the clients who will benefit the most.
                 </p>
-                <a href="flatbed/index.html" className="link">
+                <Link href="/truck-type/flatbed/" className="link">
                   Read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -111,9 +111,9 @@ export default function Services() {
                 <p>
                 Power-only drivers often face challenges with finding consistent trailer loads, managing trailer maintenance, and avoiding deadhead miles. This can result in reduced profitability and inefficiencies.
                 </p>
-                <a href="power-only-dispatch/index.html" className="link">
+                <Link href="/truck-type/power-only-dispatch/" className="link">
                   Read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -127,9 +127,9 @@ export default function Services() {
                 <p>
                 Hot shot drivers are under constant pressure to meet tight deadlines and keep their equipment in top shape while dealing with fluctuating demand for urgent, small-load deliveries.
                 </p>
-                <a href="hotshot/index.html" className="link">
+                <Link href="/truck-type/hotshot/" className="link">
                   Read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -143,9 +143,9 @@ export default function Services() {
                 <p>
                 Box truck drivers often struggle with urban congestion, tight delivery schedules, and the unpredictability of short-haul demand. These factors make it hard to stay consistent and profitable.
                 </p>
-                <a href="boxtruck/index.html" className="link">
+                <Link href="/truck-type/boxtruck/" className="link">
                   Read more
-                </a>
+                </Link>
               </div>
             </div>
           </div>

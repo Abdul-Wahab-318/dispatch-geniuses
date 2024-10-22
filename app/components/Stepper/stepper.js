@@ -1,3 +1,4 @@
+"use client"
 import React, { useRef , useState } from "react"
 import { Stepper } from "primereact/stepper"
 import { StepperPanel } from "primereact/stepperpanel"

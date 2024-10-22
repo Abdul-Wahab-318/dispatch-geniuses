@@ -1,18 +1,7 @@
-"use client"
-
-import React, { useRef } from "react"
-import { Stepper } from "primereact/stepper"
-import { StepperPanel } from "primereact/stepperpanel"
-import { Button } from "primereact/button"
-import { PrimeReactProvider } from "primereact/api"
-import "primereact/resources/themes/lara-light-cyan/theme.css"
-import 'primeicons/primeicons.css';
 import Link from "next/link"
 import "./styles.css"
 import PageHeader from "../components/PageHeader/pageHeader"
-import ContactForm from "@/app/components/ContactForm/contactForm"
-import Image from "next/image"
-import StepperComponent from "../components/Stepper/stepper"
+import StepperComponent from "../components/Stepper/Stepper";
 
 export default function HowToStart() {
 

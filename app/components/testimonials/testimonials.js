@@ -8,9 +8,9 @@ import "./styles.css"
 export default function Testimonials() {
   let testimonialSettings = {
     autoplay: true,
+    swipeToSlide : true ,
     arrows: false,
     responsive: true,
-    swipe: false,
     slidesToShow: 2,
     dots: true,
     settings: {

@@ -1,18 +1,17 @@
-import React from "react"
+import Link from "next/link"
 
 export default function blogGrid() {
   return (
     <section className="section home-blog">
       <div className="container">
         <div className="row">
-          <div className="col-12 d-flex justify-content-between">
-            <div className="h1">
+          <div className="col-12 d-flex justify-content-between mb-12">
+            <div className="text-6xl lg:text-5xl h2 mb-0">
               Blog
-              <a href="../blog/index.html" />
             </div>
-            <a href="../blog/index.html" className="link link-middle">
-              All news
-            </a>
+            <Link href="/blog/" className=" text-5xl lg:text-4xl link link-middle m-0">
+              All news +
+            </Link>
           </div>
         </div>
         <div className="row g-4" data-wow-delay=".5s" data-wow-duration="2.5s">
