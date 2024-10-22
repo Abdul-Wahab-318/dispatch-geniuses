@@ -291,11 +291,11 @@ h1::before {
   margin-bottom: 3rem;
   line-height: 1.6;
 }
-.article img {
+/* .article img {
   margin-bottom: 28px;
   width: 100%;
   height: auto;
-}
+} */
 .article ul {
   margin-bottom: 3rem;
   list-style: none;
@@ -390,6 +390,7 @@ h1::before {
   }
   .article .article-bullets {
     margin-bottom: 0;
+    font-size: 16px;
   }
   .form {
     padding: 3rem 5rem;
@@ -540,7 +541,7 @@ h1::before {
   margin: 1rem;
   background-color: #fff;
   border-radius: 0.5rem;
-  font-size: 20px !important;
+  font-size: 20px ;
 }
 .choose-your-service__item br {
   display: none;
