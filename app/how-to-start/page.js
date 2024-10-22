@@ -1,7 +1,7 @@
 import Link from "next/link"
 import "./styles.css"
 import PageHeader from "../components/PageHeader/pageHeader"
-import StepperComponent from "../components/Stepper/Stepper";
+import StepperComponent from "../components/Stepper/stepper";
 
 export default function HowToStart() {
 
