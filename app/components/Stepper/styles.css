@@ -1,0 +1,34 @@
+.p-stepper .p-stepper-header.p-highlight .p-stepper-number{
+    background-color: #009AFF !important;
+}
+.p-stepper .p-stepper-header:has(~ .p-highlight) .p-stepper-separator {
+    background-color: #009AFF !important;
+}
+.Header{
+    font-size: 20px !important;
+}
+
+.content-wrapper{
+    margin-bottom: 20px;
+}
+
+.step-heading {
+    position: relative;
+    display: inline;
+}
+.step-heading::after{
+    content: '';
+    position: absolute;
+    bottom: -0px;
+    right   : 0px;
+    width: 18px;
+    height: 5px;
+    background-color: #009AFF;
+}
+
+@media (max-width : 992px){
+    .step-heading::after{
+        width: 14px;
+    }
+}
+

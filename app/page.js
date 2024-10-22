@@ -1,8 +1,7 @@
 import Image from "next/image"
 import { Faq } from "./components/Faq/faq"
-import Footer from "./components/Footer/footer"
-import Navbar from "./components/Navbar/navbar"
 import Link from "next/link"
+import Testimonials from "@/app/components/testimonials/testimonials"
 
 export default function Home() {
 
@@ -404,32 +403,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* <div className="section-lgy section-lg youtube">
-            <div className="container">
-              <div className="row">
-                <div className="col-12">
-                  <div className="youtube-section__head wow animate__ animate__fadeInLeft h2">
-                    What is Dispatch Geniuses?
-                  </div>
-                </div>
-                <div className="col-12">
-                  <iframe
-                    data-src="https://www.youtube.com/embed/_1liE33WYUY"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen=""
-                    style={{ width: "100%" }}
-                    width={854}
-                    height={480}
-                    frameBorder={0}
-                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    className="lazyload"
-                    data-load-mode={1}
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          </div> */}
           <section  className="section-lg home-stats">
             <div className="container home-stats__inner">
               <div className="row">
@@ -1197,6 +1170,7 @@ export default function Home() {
               </p>
             </div>
           </section>
+          <Testimonials/>
           <Faq/>     
         </div>
       </div>
