@@ -80,7 +80,7 @@ export default function Testimonials() {
               <Slider {...testimonialSettings}>
                 {testimonials.map((obj, ind) => {
                   return (
-                    <div className="desc-slider-item">
+                    <div className="desc-slider-item" key={ind}>
                       <h5
                         className="text-gray mb-4 text-4xl font-normal"
                         style={{ lineHeight: "1.6" }}
