@@ -46,8 +46,8 @@ export default function Page() {
               logistics capabilities.
             </p>
           </div>
-          <div className="col-12 col-md-6 flex items-center">
-            <Image src={"/images/reefer-1.avif"} width={150} height={150} />
+          <div className="col-12 col-md-6 flex items-center min-h-[300px]" style={{'position':'relative'}} >
+            <Image src={"/images/reefer-1.avif"}  layout="fill" objectFit="contain" />
           </div>
 
         </div>

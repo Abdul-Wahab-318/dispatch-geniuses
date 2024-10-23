@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.container{
+  padding: 0 20px !important;
+}
 @-ms-keyframes pulsate {
   0% {
     transform: scale(0.1);

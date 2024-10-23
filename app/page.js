@@ -567,7 +567,7 @@ export default function Home() {
             </div>
           </section>
           <BlogGrid />
-          <section className="section-lg">
+          <section className="section-lg pt-0">
             <div className="container">
               <p>
                 <i>

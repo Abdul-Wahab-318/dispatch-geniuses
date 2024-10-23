@@ -53,7 +53,7 @@ export default function StepperComponent() {
               <div className="content-wrapper font-medium text-5xl">
                 <div className="carousel-item_">
                   <h2 className="step-heading text-6xl">Step 1</h2>
-                  <h3 className="text-4xl sm:text-5xl lg:text-4xl mt-5">
+                  <h3 className="text-4xl sm:text-5xl lg:text-4xl mt-5 mb-5">
                     Before we hit the road together, make sure you have the
                     basics covered!
                   </h3>
@@ -67,23 +67,26 @@ export default function StepperComponent() {
                         Have you had your MC# for more than 3 months?{" "}
                       </span>
                       <form action="" className="my-4">
-                        <input
-                          type="radio"
-                          name="q1"
-                          id="yes"
-                          defaultChecked
-                          onChange={handleRadioChange}
-                        />
-                        <label htmlFor="yes">Yes</label>
-
-                        <input
-                          type="radio"
-                          name="q1"
-                          id="no"
-                          className="ms-5"
-                          onChange={handleRadioChange}
-                        />
-                        <label htmlFor="no">No</label>
+                        <div className="inline-flex items-center gap-2">
+                          <input
+                            type="radio"
+                            name="q1"
+                            id="yes"
+                            defaultChecked
+                            onChange={handleRadioChange}
+                          />
+                          <label htmlFor="yes">Yes</label>
+                        </div>
+                        <div className="inline-flex items-center gap-2">
+                          <input
+                            type="radio"
+                            name="q1"
+                            id="no"
+                            className="ms-5"
+                            onChange={handleRadioChange}
+                          />
+                          <label htmlFor="no">No</label>
+                        </div>
                       </form>
                     </li>
                     <li className="mt-8">

@@ -120,7 +120,7 @@ export default function Layout({ children }) {
             </div>
           </div>
         </section>
-        <div className="container mb-8 pb-8">
+        <div className=" mb-8 pb-8">
             <BlogGrid/>
         </div>
       </div>
