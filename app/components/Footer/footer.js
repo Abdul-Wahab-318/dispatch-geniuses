@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer bg-black" >
       <div className="container footer__inner">
         <div className="subscribe-form">
           <div
@@ -58,19 +58,7 @@ const Footer = () => {
         <div className="row footer__middle">
           <div className="col-12 col-md-6 col-lg-3">
             <a className="footer__logo" href="index.html">
-              {/* <img
-            width="221"
-            height="113"
-            data-src="https://logitydispatch.com/wp-content/themes/gpk-dispatch/assets/img/svg/logo.svg"
-            alt="logo"
-            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-            class="lazyload"
-            style="
-              --smush-placeholder-width: 221px;
-              --smush-placeholder-aspect-ratio: 221/113;
-            "
-          /> */}
-                <Image src={'/images/logos/logo-white.png'} width={300} height={300} />
+                <Image src={'/images/logos/logo-header.svg'} width={320} height={320} />
             </a>
           </div>
           <div className="col-12 col-md-6 col-lg-3">

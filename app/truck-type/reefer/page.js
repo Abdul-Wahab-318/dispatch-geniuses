@@ -4,14 +4,13 @@ import Image from "next/image"
 export default function Page() {
   return (
     <section
-      data-rocket-location-hash="710497349bd6a42aa176767d55d313a5"
       className="section article pb-0"
       id="post-261"
     >
       <div className="container">
         <div className="row mb-5">
           <div className="col-12 col-md-7">
-            <h1 className="mb-2">Reefer</h1>
+            <h1 className="mb-4">Reefer</h1>
             <ul className="article-bullets">
               <li>Steady flow of temperature-controlled loads</li>
               <li>24/7 dispatch support for time-sensitive deliveries</li>

@@ -1,4 +1,72 @@
 
+.article ul {
+  margin-bottom: 3rem;
+  list-style: none;
+}
+.article ul li {
+  position: relative;
+  line-height: 1.6;
+  font-family: Logity, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.article ul li::before {
+  content: "";
+  display: inline-block;
+  margin-right: 1.2rem;
+  width: 15px;
+  height: 14px;
+}
+.article .wp-block-columns img {
+  margin-bottom: 0;
+}
+.article .home-blog img {
+  width: 100%;
+  height: 100%;
+}
+.article .article-bullets {
+  padding-left: 0;
+  padding-top: 1.5rem;
+  margin-bottom: 7rem;
+}
+.article .article-bullets li {
+  font-size: 2.6rem;
+  margin-bottom: 30px;
+}
+.article .article-bullets li::before {
+  width: 24px;
+  height: 20px;
+  background: unset;
+  background-image: url('/images/icons/blue-tick.png') !important;
+  background-size: contain; /* Add this line */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.shippers-list li  {
+  font-size: 18px !important;
+}
+.shippers-list li::before{
+  display: none !important;
+}
+@media (max-width: 576px) {
+  .shippers-main-list li::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url("../../public/images/icons/blue-tick.png");
+  }
+  .article .article-bullets li {
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+}
+.article .article-bullets li::before{
+  width: 16px;
+  height: 14px;
+}
+}
+
 .article-bullets li{
     margin: 40px 0;
     display: flex;
@@ -8,6 +76,8 @@
 .article-bullets li:last-child{
     margin-bottom: 0;
 }
+
+
 .shipper-broker-page p{
     font-size: 18px;
 }

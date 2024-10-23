@@ -313,8 +313,6 @@ h1::before {
   margin-right: 1.2rem;
   width: 15px;
   height: 14px;
-  background: var(--wpr-bg-cfcc4ac8-ce19-49ba-976c-9b81cd8f8dd9)
-    center/contain no-repeat;
 }
 .article .wp-block-columns img {
   margin-bottom: 0;
@@ -343,13 +341,13 @@ h1::before {
 
 @media (max-width: 576px) {
   .article .article-bullets li {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     margin-bottom: 15px;
 }
-.article .article-bullets li::before{
+/* .article .article-bullets li::before{
   width: 16px;
   height: 14px;
-}
+} */
 }
 
 @media (min-width: 576px) {

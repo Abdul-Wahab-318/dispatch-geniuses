@@ -415,12 +415,10 @@ export default function Home() {
                 <div className="d-flex justify-content-between">
                   <h2 className="home-services__title wow animate__animated animate__fadeInLeft">
                     Services
-                    <br />
-                    and pricing <Link href="services/" />
                   </h2>
                   <Link
                     href="contact-us/"
-                    className="home-services__link link link-middle home-get-started__link wow animate__animated animate__fadeInRight shadow-transparent"
+                    className="home-services__link link link-middle mt-0 home-get-started__link wow animate__animated animate__fadeInRight shadow-transparent"
                   >
                     From 5%
                     <br />

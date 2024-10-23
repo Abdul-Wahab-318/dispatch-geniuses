@@ -26,7 +26,7 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="section services">
+      <div className="section">
         <div className="container">
           <div className="row">
             <h1 className="h2 not-home">Truck types</h1>
@@ -111,7 +111,7 @@ export default function Services() {
                 <p>
                 Power-only drivers often face challenges with finding consistent trailer loads, managing trailer maintenance, and avoiding deadhead miles. This can result in reduced profitability and inefficiencies.
                 </p>
-                <Link href="/truck-type/power-only-dispatch/" className="link">
+                <Link href="/truck-type/power-only/" className="link">
                   Read more
                 </Link>
               </div>

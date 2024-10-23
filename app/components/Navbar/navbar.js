@@ -22,8 +22,8 @@ export default function Navbar() {
       <div className="navbar__inner flex items-center justify-between px-4 py-2 ">
         <Link href="/" className="flex items-center gap-2" prefetch={false}>
           <Image
-            src={"/images/logos/logo-sm-white.svg"}
-            className="w-[60px] h-[60px] lg:w-[80px] lg:h-[80px] xl:w-[100px] xl:h-[100px]"
+            src={"/images/logos/logo-sm.svg"}
+            className="w-[60px] h-[60px] lg:w-[100px] lg:h-[80px] "
             width={100}
             height={100}
           />

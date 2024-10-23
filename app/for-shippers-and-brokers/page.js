@@ -30,42 +30,21 @@ export default function Shippers() {
           </div>
         </div>
       </div>
-      <div className="single-page">
+      <div className="single-page ">
         <section className="section article" id="post-1589">
           <div className="container">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-5">
-              <div className="mt-5">
-                <h1 className="text-8xl">For Shippers and Brokers</h1>
-                <ul className="article-bullets text-4xl ">
-                  <li>
-                    {" "}
-                    <span>
-                      <img
-                        src="/images/icons/blue-tick.png"
-                        width={25}
-                        alt=""
-                      />
-                    </span>{" "}
+              <div className="">
+                <h1 className="text-8xl mb-0">For Shippers and Brokers</h1>
+                <ul className="article-bullets text-5xl md:text-4xl shippers-main-list">
+                  <li className="text-5xl md:text-4xl">
                     Thousands of trucks to move your loads
                   </li>
-                  <li>
-                    <span>
-                      <img
-                        src="/images/icons/blue-tick.png"
-                        width={25}
-                        alt=""
-                      />
-                    </span>{" "}
+                  <li className="text-5xl md:text-4xl">
                     24/7 updates and load tracking
                   </li>
-                  <li>
-                    <span>
-                      <img
-                        src="/images/icons/blue-tick.png"
-                        width={25}
-                        alt=""
-                      />
-                    </span>{" "}
+                  <li className="text-5xl md:text-4xl">
+
                     No double brokering and hidden fees
                   </li>
                 </ul>
@@ -78,7 +57,7 @@ export default function Shippers() {
           <div className="container">
             <div className="row">
               <h2
-                className="wp-block-heading mt-5 mb-12"
+                className="wp-block-heading mt-5 mb-12 text-6xl md:text-5xl"
                 id="dispatch-solutions-for-shippers-and-brokers"
               >
                 <strong>
@@ -98,12 +77,12 @@ export default function Shippers() {
                 smoother for both parties. Here’s how.
               </p>
               <h2
-                className="wp-block-heading mt-5 mb-12"
+                className="wp-block-heading mt-5 mb-12 text-6xl md:text-5xl"
                 id="how-we-can-help-freight-brokers-and-shippers"
               >
                 <strong>How We Make Your Life Easier</strong>
               </h2>
-              <ul className="wp-block-list text-[18px] md:text-4xl xl:text-3xl">
+              <ul className="wp-block-list text-[18px] md:text-4xl xl:text-3xl shippers-list">
                 <li>
                   <img
                     src="/images/icons/blue-tick.png"
@@ -137,7 +116,7 @@ export default function Shippers() {
                 </li>
               </ul>
               <h2
-                className="wp-block-heading mt-5 mb-12"
+                className="wp-block-heading mt-5 mb-12 text-6xl md:text-5xl"
                 id="our-truck-dispatcher-service-benefits"
               >
                 <strong>Why Choose Dispatch Geniuses?</strong>
@@ -216,7 +195,7 @@ export default function Shippers() {
                   </span>
                 </li>
               </ul>
-              <h2 className="wp-block-heading mt-5 mb-12" id="why-rely-on-logity-dispatch">
+              <h2 className="wp-block-heading mt-5 mb-12 text-6xl md:text-5xl" id="why-rely-on-logity-dispatch">
                 <strong>Partner with Dispatch Geniuses Today</strong>
               </h2>
               <p>
