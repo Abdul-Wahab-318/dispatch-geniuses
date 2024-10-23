@@ -468,28 +468,19 @@ export default function Home() {
             <div className="container home-stats__inner">
               <div className="row">
                 <div className="col-12">
-                  <h2 className="home-stats__title wow animate__animated animate__fadeInLeft text-white">
-                    To work
-                    <br />
-                    not talk <Link href="services/" />
-                  </h2>
+                  <h4 className="home-stats__title text-7xl font-bold text-white text-center block mb-12" style={{'letterSpacing':'3px'}}>
+                    Unreal Achievements
+                  </h4>
                 </div>
               </div>
-              <div className="row">
-                <div className="col-12 col-md-4 home-stats__item-wrap">
+              <div className="row mt-12">
+                <div className="col-12 home-stats__item-wrap">
                   <div className="home-stats__item">
-                    <div className="home-stats__icon">
-                      <Image
-                        src={"/images/icons/forklift.png"}
-                        width={50}
-                        height={50}
-                      />
-                    </div>
                     <div
                       className="h3 home-stats__num text-white font-extrabold"
                       id="home-stats-num-1"
                     >
-                      <span className="font-bold text-7xl text-white">
+                      <span className="font-bold text-8xl text-white">
                         1,000 +
                       </span>
                     </div>
@@ -498,17 +489,10 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-12 col-md-4 home-stats__item-wrap">
+                <div className="col-12 home-stats__item-wrap">
                   <div className="home-stats__item">
-                    <div className="home-stats__icon">
-                      <Image
-                        src={"/images/icons/money.png"}
-                        width={50}
-                        height={50}
-                      />
-                    </div>
                     <div className="h3 home-stats__num" id="home-stats-num-2">
-                      <span className="font-bold text-7xl text-white">
+                      <span className="font-bold text-8xl text-white">
                         $7,000 +
                       </span>
                     </div>
@@ -517,17 +501,10 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-12 col-md-4 home-stats__item-wrap">
-                  <div className="home-stats__item">
-                    <div className="home-stats__icon">
-                      <Image
-                        src={"/images/icons/cargo.png"}
-                        width={50}
-                        height={50}
-                      />
-                    </div>
+                <div className="col-12 home-stats__item-wrap">
+                  <div className="home-stats__item mb-0">  
                     <div className="h3 home-stats__num" id="home-stats-num-3">
-                      <span className="text-white font-bold text-7xl">
+                      <span className="text-white font-bold text-8xl">
                         $34,000
                       </span>
                     </div>
