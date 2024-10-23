@@ -132,6 +132,10 @@ display: none;
   overflow: visible; /* Ensures overflow is not hidden */
   font-family: "Afacad Flux", sans-serif;
 }
+.home-trucks__card{
+  margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
   .home-stats__icon {
     display: flex;

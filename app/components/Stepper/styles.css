@@ -27,7 +27,12 @@
     height: 5px;
     background-color: #009AFF;
 }
-
+.p-button{
+    background-color: #009AFF;
+    color: white;
+    padding: 5px 14px;
+    border-radius: 0.5rem;
+}
 @media (max-width : 992px){
     .step-heading::after{
         width: 14px;

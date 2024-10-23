@@ -49,6 +49,45 @@ export default function Home() {
     },
   ]
 
+  const trucks = [
+    {
+      name: "Dry Van",
+      href: "/truck-type/dry-van",
+      icon: "/images/dry-van-2.png",
+    },
+    {
+      name: "Step Deck",
+      href: "/truck-type/step-deck",
+      icon: "/images/step-deck-1.avif",
+    },
+    {
+      name: "Reefer",
+      href: "/truck-type/reefer",
+      icon: "/images/reefer-1.avif",
+    },
+    {
+      name: "Flatbed",
+      href: "/truck-type/flatbed",
+      icon: "/images/flatbed-1.avif",
+    },
+    {
+      name: "Power Only",
+      href: "/truck-type/power-only",
+      icon: "/images/power-only-1.avif",
+    },
+    {
+      name: "Hotshot",
+      href: "/truck-type/hotshot",
+      icon: "/images/hot-shot-1.avif",
+    },
+    {
+      name: "Boxtruck",
+      href: "/truck-type/boxtruck",
+      icon: "/images/box-truck-3.png",
+    }
+  ];
+  
+
   return (
     <div className="home page-template page-template-index page-template-index-php page page-id-40">
       <div className="main-wrapper">
@@ -89,7 +128,7 @@ export default function Home() {
                   </div>
                   <div className="row home-header__bottom">
                     <div className="col-12 d-sm-flex">
-                      <a
+                      <Link
                         href="tel:3024259299"
                         className="btn btn-lg btn-danger rounded-lg inline-flex gap-3 items-center"
                       >
@@ -99,7 +138,7 @@ export default function Home() {
                           height={24}
                         />
                         (302) 425 92 99
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -314,9 +353,9 @@ export default function Home() {
                           </span>
                           <span className="form-check-label p2 mt-[-3px] ">
                             I have read and agree to{"  "}
-                            <a href="terms-of-service/index.html">
+                            <Link href="terms-of-service/">
                               Terms of Service
-                            </a>
+                            </Link>
                           </span>
                         </div>
                         <div className="form-check subscribing">
@@ -377,16 +416,16 @@ export default function Home() {
                   <h2 className="home-services__title wow animate__animated animate__fadeInLeft">
                     Services
                     <br />
-                    and pricing <a href="services/index.html" />
+                    and pricing <Link href="services/" />
                   </h2>
-                  <a
-                    href="contact-us/index.html"
+                  <Link
+                    href="contact-us/"
                     className="home-services__link link link-middle home-get-started__link wow animate__animated animate__fadeInRight shadow-transparent"
                   >
                     From 5%
                     <br />
                     of gross
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -432,7 +471,7 @@ export default function Home() {
                   <h2 className="home-stats__title wow animate__animated animate__fadeInLeft text-white">
                     To work
                     <br />
-                    not talk <a href="services/index.html" />
+                    not talk <Link href="services/" />
                   </h2>
                 </div>
               </div>
@@ -504,7 +543,7 @@ export default function Home() {
             <div className="container">
             <div className="row">
                 <div className="col-12">
-                  <h2 className="home-services__title mb-0">
+                  <h2 className="home-services__title mb-12">
                     Get Started
                   </h2>
                 </div>
@@ -519,7 +558,7 @@ export default function Home() {
                   <h2 className="home-trucks__title wow animate__animated animate__fadeInLeft">
                     Who can
                     <br />
-                    work with us <a href="trucks/index.html" />
+                    work with us <Link href="/trucks" />
                   </h2>
                 </div>
               </div>
@@ -528,110 +567,25 @@ export default function Home() {
                 data-wow-delay=".5s"
                 data-wow-duration="2.5s"
               >
-                <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
-                  <div className="home-trucks__card-inner">
-                    <Image src={"/images/dry-van-2.png"} layout="fill" />
-                    <div className="home-trucks__card-overlay">&nbsp;</div>
-                    <button
-                      aria-label="button"
-                      className="btn home-trucks__btn"
-                    >
-                      <span>Dry Van</span>
-                    </button>
-                    <a href="trucks/dry-van/index.html">&nbsp;</a>
-                  </div>
-                </div>
-                <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
-                  <div className="home-trucks__card-inner">
-                    <Image src={"/images/dry-van-2.png"} layout="fill" />
-                    <div className="home-trucks__card-overlay">&nbsp;</div>
-                    <button
-                      aria-label="button"
-                      className="btn home-trucks__btn"
-                    >
-                      <span>Step Deck</span>
-                    </button>
-                    <a href="trucks/step-deck/index.html">&nbsp;</a>
-                  </div>
-                </div>
-                <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
-                  <div className="home-trucks__card-inner">
-                    <Image src={"/images/dry-van-2.png"} layout="fill" />
-                    <div className="home-trucks__card-overlay">&nbsp;</div>
-                    <button
-                      aria-label="button"
-                      className="btn home-trucks__btn"
-                    >
-                      <span>Reefer</span>
-                    </button>
-                    <a href="trucks/reefer/index.html">&nbsp;</a>
-                  </div>
-                </div>
-                <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
-                  <div className="home-trucks__card-inner">
-                    <Image src={"/images/dry-van-2.png"} layout="fill" />
-                    <div className="home-trucks__card-overlay">&nbsp;</div>
-                    <button
-                      aria-label="button"
-                      className="btn home-trucks__btn"
-                    >
-                      <span>Flatbed</span>
-                    </button>
-                    <a href="trucks/flatbed/index.html">&nbsp;</a>
-                  </div>
-                </div>
-                <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
-                  <div className="home-trucks__card-inner">
-                    <Image src={"/images/dry-van-2.png"} layout="fill" />
-                    <div className="home-trucks__card-overlay">&nbsp;</div>
-                    <button
-                      aria-label="button"
-                      className="btn home-trucks__btn"
-                    >
-                      <span>Power Only</span>
-                    </button>
-                    <a href="trucks/power-only-dispatch/index.html">&nbsp;</a>
-                  </div>
-                </div>
-                <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
-                  <div className="home-trucks__card-inner">
-                    <Image src={"/images/dry-van-2.png"} layout="fill" />
-                    <div className="home-trucks__card-overlay">&nbsp;</div>
-                    <button
-                      aria-label="button"
-                      className="btn home-trucks__btn"
-                    >
-                      <span>Hotshot</span>
-                    </button>
-                    <a href="trucks/hotshot/index.html">&nbsp;</a>
-                  </div>
-                </div>
-                <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
-                  <div className="home-trucks__card-inner">
-                    <Image src={"/images/dry-van-2.png"} layout="fill" />
-                    <div className="home-trucks__card-overlay">&nbsp;</div>
-                    <button
-                      aria-label="button"
-                      className="btn home-trucks__btn"
-                    >
-                      <span>Boxtruck</span>
-                    </button>
-                    <a href="trucks/boxtruck/index.html">&nbsp;</a>
-                  </div>
-                </div>
-                <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
-                  <div className="home-trucks__card-inner">
-                    <Image src={"/images/dry-van-2.png"} layout="fill" />
-                    <div className="home-trucks__card-overlay">&nbsp;</div>
-                    <button
-                      aria-label="button"
-                      className="btn home-trucks__btn"
-                    >
-                      <span>Straight Truck</span>
-                    </button>
-                    <a href="trucks/straight-truck/index.html">&nbsp;</a>
-                  </div>
-                </div>
+                {
+                  trucks.map((truck , ind) => {
+                    return(
+                      <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
+                        <div className="home-trucks__card-inner">
+                          <Image src={truck.icon} layout="fill" objectFit="cover" style={{'backgroundSize':'100%'}} />
+                          <div className="home-trucks__card-overlay">&nbsp;</div>
+                          <button
+                            aria-label="button"
+                            className="btn home-trucks__btn"
+                          >
+                            <span>{truck.name}</span>
+                          </button>
+                          <Link href={truck.href}>&nbsp;</Link>
+                        </div>
+                      </div>
+                    )
+                  })
+                }
               </div>
             </div>
           </section>
