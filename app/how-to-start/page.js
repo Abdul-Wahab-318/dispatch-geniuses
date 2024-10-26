@@ -8,7 +8,7 @@ export default function HowToStart() {
   return (
     <div className="main-wrapper">
       <PageHeader img_url="/images/about-header.webp" />
-      <div className="container breadcrumbs-container">
+      <div className="container breadcrumbs-container ">
         <div className="row">
           <div className="col-12">
             <div className="breadcrumbs">
@@ -30,8 +30,8 @@ export default function HowToStart() {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div div className="row mt-12">
+      <div className="container ">
+        <div div className="row pt-[40px] md:py-12">
           <h1 className="text-7xl">Get Started</h1>
         </div>
         <StepperComponent />
