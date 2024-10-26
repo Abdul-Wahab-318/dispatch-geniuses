@@ -98,7 +98,7 @@ const Footer = () => {
                   id="menu-item-393"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"
                 >
-                  <a href="terms-of-service/index.html">Terms of service</a>
+                  <a href="/terms-of-service/">Terms of service</a>
                 </li>
               </ul>
             </div>
