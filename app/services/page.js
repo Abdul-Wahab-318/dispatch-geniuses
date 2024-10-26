@@ -59,7 +59,7 @@ export default function Services() {
                   from negotiations to check calls, so you can focus on driving
                   and growing your business.
                 </p>
-                <Link href="dispatching/index.html" className="link">
+                <Link href="/service-type/dispatching/" className="link">
                   Read more
                 </Link>
               </div>
@@ -84,7 +84,7 @@ export default function Services() {
                   we’ll streamline your administrative tasks, giving you more
                   time to focus on the road.
                 </p>
-                <Link href="billing/index.html" className="link">
+                <Link href="/service-type/paperwork-management/" className="link">
                   Read more
                 </Link>
               </div>
@@ -110,7 +110,7 @@ export default function Services() {
                   matters most—your business.
                 </p>
                 <Link
-                  href="document-management-paperwork/index.html"
+                  href="/service-type/accounting-invoicing/"
                   className="link"
                 >
                   Read more
@@ -137,7 +137,7 @@ export default function Services() {
                   fleet, increase profits, and dominate the market with
                   confidence.
                 </p>
-                <Link href="factoring-service/index.html" className="link">
+                <Link href="/service-type/business-expansion/" className="link">
                   Read more
                 </Link>
               </div>
@@ -161,7 +161,7 @@ export default function Services() {
                   drivers and business safe from costly penalties and ensuring
                   smooth operations on the road.
                 </p>
-                <Link href="rate-negotiation/index.html" className="link">
+                <Link href="/service-type/dot-compliance/" className="link">
                   Read more
                 </Link>
               </div>
@@ -180,7 +180,7 @@ export default function Services() {
                       Starting from 5% of gross <span />
                     </div>
                     <Link
-                      href="../contact-us/index.html"
+                      href="/contact-us"
                       className="btn btn-lg btn-danger"
                     >
                       Contact us
@@ -265,7 +265,7 @@ export default function Services() {
                   process, from LLC formation to licensing, so you can hit the
                   road with confidence
                 </p>
-                <Link href="safety-dot-compliance/index.html" className="link">
+                <Link href="/service-type/company-formation/" className="link">
                   Read more
                 </Link>
               </div>
@@ -300,7 +300,7 @@ export default function Services() {
                   compliant with fuel tax regulations while saving time and
                   reducing errors.
                 </p>
-                <Link href="ifta/index.html" className="link">
+                <Link href="/service-type/ifta/" className="link">
                   Read more
                 </Link>
               </div>
@@ -321,7 +321,7 @@ export default function Services() {
                   and insurance providers tailored to your business needs,
                   ensuring you get the best value and service.
                 </p>
-                <Link href="company-formation/index.html" className="link">
+                <Link href="/service-type/factoring-service/" className="link">
                   Read more
                 </Link>
               </div>
@@ -348,7 +348,7 @@ export default function Services() {
                       Contact for details <span />
                     </div>
                     <Link
-                      href="../contact-us/index.html"
+                      href="/contact-us"
                       className="btn btn-lg btn-danger"
                     >
                       Contact us

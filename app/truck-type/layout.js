@@ -68,10 +68,10 @@ export default function Layout({ children }) {
                   </a>
                   <a
                     className="btn choose-your-service__item"
-                    href="/service-type/billing/"
+                    href="/service-type/paperwork-management/"
                     title="Billing"
                   >
-                    Billing &amp; Accounting
+                    Paperwork Management
                   </a>
                   <a
                     className="btn choose-your-service__item"

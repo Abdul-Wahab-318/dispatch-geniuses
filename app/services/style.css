@@ -91,7 +91,7 @@
   transition: 0.3s;
 }
 .services__col-right{
-  padding-left: 20px;
+  padding-left: 20px !important;
 }
 .services__row {
   /* margin-bottom: 5rem; */

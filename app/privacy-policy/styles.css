@@ -1,0 +1,7 @@
+.privacy-policy-page :is(p,span,li){
+    font-size: 18px;
+}
+
+.privacy-policy-page div h2 {
+    margin-bottom: 15px !important;
+}

@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import Link from "next/link"
 const Footer = () => {
   return (
     <footer className="footer bg-black" >
@@ -140,9 +140,9 @@ const Footer = () => {
                   id="menu-item-392"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-392"
                 >
-                  <a rel="privacy-policy" href="privacy-policy/index.html">
+                  <Link rel="privacy-policy" href="/privacy-policy">
                     Privacy policy
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
