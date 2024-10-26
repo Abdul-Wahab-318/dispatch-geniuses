@@ -80,13 +80,13 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="hidden md:block">
-          <Link
+          <a
             className="nav-link px-[3.2rem] py-[2rem] lg:px-[4.4rem]  lg:py-[1.8rem] btn-danger navbar__btn rounded-lg text-3xl"
-            href="tel:3024259299"
+            href="tel:6822972200"
           >
             {" "}
-            (302) 425 92 99
-          </Link>
+            (682) 297 2200
+          </a>
         </div>
         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
           <SheetTrigger asChild onClick={openSheet}>

@@ -153,38 +153,36 @@ const Footer = () => {
               <ul>
                 <li className="d-flex mb-[24px]">
                   <Image src={'/images/icons/phone.png'} width={20} height={2} />
-                  <a href="tel:3024259299" className="p2 ps-2">
-                        (302) 425 92 99{" "}
+                  <a href="tel:6822972200" className="p2 ps-2">
+                        (682) 297 2200{" "}
                   </a>
                 </li>
                 <li className="d-flex">
                     <Image src={'/images/icons/email.png'} width={20} height={2} className="mr-3" />
 
                   <a
-                    href="cdn-cgi/l/email-protection.html#761f181019361a19111f020f121f05061702151e5815191b"
                     className="p2"
+                    href="mailto:info@dispatchgeniuses.com"
                   >
                     <span
                       className="__cf_email__"
-                      data-cfemail="adc4c3cbc2edc1c2cac4d9d4c9c4deddccd9cec583cec2c0"
                     >
-                      [email&nbsp;protected]
+                      info@dispatchgeniuses.com
                     </span>
                   </a>
                 </li>
                 <li className="d-flex align-items-center">
                 <Image src={'/images/icons/location.png'} width={20} height={2} className="mr-3" />
                   <div className="p2">
-                    3524 Silverside Rd Ste 35B, Wilmington, DE 19810, United
-                    States
+                  661 St Andrew Ln Prosper TX, 75078
                   </div>
                 </li>
                 <li className="d-flex align-items-center">
                     <Image src={'/images/icons/time.png'} width={20} height={2} className="mr-3" />
                   <div className="p2">
-                    Monday - Friday: 10AM - 5PM
+                    Mon - Fri (EST) : 9 AM - 6 PM
                     <br />
-                    Saturday - Sunday: Closed
+                    Sat - Sun: Closed
                   </div>
                 </li>
               </ul>

@@ -2,11 +2,11 @@ import Link from "next/link"
 
 export default function EmailBtn() {
   return (
-    <Link
-      href="/contact-us"
+    <a
+      href="mailto:info@dispatchgeniuses.com"
       className="btn btn-lg btn-light border-2 border-blue"
     >
-        email@gmail.com
-    </Link>
+        info@dispatchgeniuses.com
+    </a>
   )
 }

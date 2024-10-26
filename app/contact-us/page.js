@@ -59,11 +59,11 @@ export default function Contact() {
                 Operational hours (EST Time):
               </h4>
               <ul className="contacts-days">
-                <li>Monday: 10AM - 5PM</li>
-                <li>Tuesday: 10AM - 5PM</li>
-                <li>Wednesday: 10AM - 5PM</li>
-                <li>Thursday: 10AM - 5PM</li>
-                <li>Friday: 10AM - 5PM</li>
+                <li>Monday: 9AM - 6PM</li>
+                <li>Tuesday: 9AM - 6PM</li>
+                <li>Wednesday: 9AM - 6PM</li>
+                <li>Thursday: 9AM - 6PM</li>
+                <li>Friday: 9AM - 6PM</li>
                 <li>Saturday: Closed</li>
                 <li>Sunday: Closed</li>
               </ul>
