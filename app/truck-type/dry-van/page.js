@@ -12,10 +12,10 @@ export default function Page() {
           <div className="col-12 col-md-7">
             <h1 className="mb-4">Dry Van</h1>
             <ul className="article-bullets">
-              <li>Reliable load sourcing to minimize downtime</li>
-              <li>Optimized route planning to reduce empty miles</li>
-              <li>Strong relationships with brokers for better backhauls</li>
-              <li>We charge only 5% of Gross, No contracts</li>
+              <li>load sourcing which is reliable to minimize downtime</li>
+              <li>Executing adequate route planning to the last mile</li>
+              <li>Great rapport with brokers for backhauls</li>
+              <li>We only charge 5% Gross, No long term agreements</li>
             </ul>
           </div>
           <div className="col-12 col-md-5">
@@ -30,7 +30,7 @@ export default function Page() {
               <strong>Our Dry Van Dispatch Service</strong>
             </h2>
             <p>
-                In the competitive world of transportation and logistics, dry van carriers and shippers are essential to ensuring the safe and efficient delivery of goods. At Dispatch Geniuses, we specialize in providing top-tier dry van dispatch services to streamline logistics and improve delivery efficiency. Our expert team is dedicated to supporting both dry van carriers and shippers, helping to optimize routes, reduce delays, and simplify the job for truck drivers. With our dispatch service, you can trust that your goods will reach their destinations reliably and on time.
+            At Dispatch Geniuses, we understand that dry van carriers and shippers form the primary structure of the transportation and logistics industry where time is money and competition is stiff. It is for this reason that we provide intelligent dispatch services that are aimed at making your life more comfortable. Our team of routing specialists has a unique optimization for the routes and the waiting times, bringing greater simplicity to the process for truck operators. You are assured of an effective dispatch with regards to the time of delivery of your goods with us. Make sure that Dispatch Geniuses helps you win the competition – every mile – every load – every time!
             </p>
           </div>
           <div className="col-12 col-md-6 flex items-center min-h-[300px]" style={{'position':'relative'}} >

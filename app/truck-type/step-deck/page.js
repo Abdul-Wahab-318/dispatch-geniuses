@@ -9,9 +9,9 @@ export default function Page() {
           <div className="col-12 col-md-7">
             <h1 className="mb-4">Step Deck</h1>
             <ul className="article-bullets">
-              <li>Obtaining permits for oversized loads</li>
-              <li>Load balance and securement</li>
-              <li>Limited specialized freight</li>
+              <li>A reliable source of high-paying loads</li>
+              <li>Assistance with securing the proper permits</li>
+              <li>Safety and efficiency through expert load planning</li>
               <li>We charge only 5% of Gross, No contracts</li>
             </ul>
           </div>
@@ -27,16 +27,7 @@ export default function Page() {
               <strong>Our Step Deck Dispatch Service</strong>
             </h2>
             <p>
-              When it comes to hauling with step deck (or "drop deck") trailers,
-              it’s all about going big or going home. Transporting oversized and
-              over-height freight is a major responsibility that involves
-              navigating complex organizational and logistical challenges to
-              keep your business profitable. <br /> If you're spending too much time
-              searching for step deck loads, negotiating freight rates, handling
-              paperwork, and ensuring compliance with regulations and industry
-              guidelines, you may not have the time to focus on delivering large
-              step-deck or flatbed loads safely and on time. That’s where
-              Dispatch Geniuses steps in.
+            Step deck or drop deck trailers are the trailer types which are designed for maximum loading capacity without compromise. Transporting oversized or over-height freight is no joke, with challenging logistics that can often be the difference between success and failure. If you find yourself obsessing over the details of the logistics operations always looking for step deck loads or negotiating rates, printing documents and ensuring that you are compliant with regulations, you are probably missing on the most important task of delivering those large loads. That is where Dispatch Geniuses come in to make your life easier and your business much more efficient.
             </p>
           </div>
           <div

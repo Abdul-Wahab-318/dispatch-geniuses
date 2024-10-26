@@ -9,10 +9,10 @@ export default function Page() {
           <div className="col-12 col-md-7">
             <h1 className="mb-4">Hotshot</h1>
             <ul className="article-bullets">
-              <li>Access to urgent, high-paying hot shot loads</li>
-              <li>Quick dispatch for time-sensitive freight</li>
-              <li>Help managing equipment maintenance and repairs</li>
-              <li>We charge only 5% of Gross, No contracts</li>
+              <li>Access to instant high-paying hot shot loads</li>
+              <li>Instant dispatch of time-sensitive freight.</li>
+              <li>Assistance in equipment maintenance and repairs</li>
+              <li>We only charge 6% Gross, No long term agreements</li>
             </ul>
           </div>
           <div className="col-12 col-md-5">
@@ -27,7 +27,7 @@ export default function Page() {
               <strong>Our Hotshot Dispatch Service</strong>
             </h2>
             <p>
-            Many people outside the trucking industry are unaware of the effort involved in getting their equipment, appliances, and materials delivered. At Dispatch Geniuses, we recognize that hotshot drivers are the "minutemen" of trucking, ensuring timely deliveries with precision. That’s why we provide premium hotshot dispatch services designed to boost the efficiency and profitability of your hotshot trucking business, helping you keep everything on track and on time.
+            With economic pressure and a highly competitive market, finding the right loads can be a daunting task for hotshot drivers. We help solve this with our hotshot dispatch services by providing dedicated professionals who actively find top paying loads for you. We access multiple load platforms, streamline paperwork, and save you the hassle of searching, so you can focus on delivering. Working with us has also been cost effective. In fact, we’ve been saving our clients time and money. So if you’re looking for a reliable partner who can help elevate your hotshot trucking business, Dispatch Geniuses has you covered. Don't hesitate to contact us, we're here to help!
             </p>
           </div>
           <div

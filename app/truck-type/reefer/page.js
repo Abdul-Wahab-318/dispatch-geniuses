@@ -12,9 +12,9 @@ export default function Page() {
           <div className="col-12 col-md-7">
             <h1 className="mb-4">Reefer</h1>
             <ul className="article-bullets">
-              <li>Steady flow of temperature-controlled loads</li>
+              <li>Consistent temperature-controlled loads</li>
               <li>24/7 dispatch support for time-sensitive deliveries</li>
-              <li>Expert handling of reefer maintenance scheduling</li>
+              <li>Comprehensive scheduling of reefer maintenance</li>
               <li>We charge only 5% of Gross, No contracts</li>
             </ul>
           </div>
@@ -27,22 +27,10 @@ export default function Page() {
         <div className="row">
           <div className="col-12 col-md-6">
             <h2 className="text-6xl lg:text-5xl" id="reefer-dispatch">
-              <strong>Reefer Dispatch</strong>
+              <strong>Our Reefer Dispatch Service</strong>
             </h2>
             <p>
-              Dispatch Genuises for Reefer Trucks — Comprehensive Dispatching
-              Services
-            </p>
-            <p>
-              Flatbed trucks are essential heavy-duty vehicles that play a vital
-              role in supporting our economy. Their unique design makes them
-              ideal for transporting oversized or unusually shaped items that
-              other vehicles can’t handle. Whether it’s a construction project
-              requiring pipes, beams, and frames, or landscaping sites that need
-              to move large quantities of materials and ballast, flatbed trucks
-              are the perfect solution. They excel in any situation where heavy
-              equipment transport is necessary, showcasing their unmatched
-              logistics capabilities.
+            Dispatch Geniuses has a dedicated Reefer Dispatch department that provides efficient and effective dispatch services for your reefer truck that meets your needs. Embracing the concept of cold chain management, our professionals take care of everything except the driving so that you remain focused on the most important activity – driving. This includes finding the best paid loads, handling the needed docs, speaking to customers, and complying with the regulations. With everything catered for, your business is poised for growth. <br /> <br /> We maintain active focus on your operations so that, with our tailored services, communication throughout our partnership and experience, everything runs as it should be without issues. Aim for the very top with Dispatch Geniuses – we are the ultimate facilitators of the customer’s growth so that we can reap smooth and dependable profits all the time. Call us today to get a quote!
             </p>
           </div>
           <div className="col-12 col-md-6 flex items-center min-h-[300px]" style={{'position':'relative'}} >

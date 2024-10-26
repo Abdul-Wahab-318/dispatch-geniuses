@@ -9,9 +9,9 @@ export default function Page() {
           <div className="col-12 col-md-7">
             <h1 className="mb-4">Power Only</h1>
             <ul className="article-bullets">
-              <li>Steady stream of power-only freight to maximize earnings</li>
-              <li>Trailer availability and maintenance support</li>
-              <li>Route optimization to minimize deadhead miles</li>
+              <li>Constant flow of power only freight</li>
+              <li>Increasing your earning potential</li>
+              <li>Route planning to reduce the deadhead miles</li>
               <li>We charge only 5% of Gross, No contracts</li>
             </ul>
           </div>
@@ -27,7 +27,7 @@ export default function Page() {
               <strong>Our Power Only Dispatch Service</strong>
             </h2>
             <p>
-            Dispatch Genuises offers top-notch power-only dispatch services to owner-operators and truck fleets, making it simple to match power-only loads with independent drivers and fleets. Whether you need to move equipment on a flatbed trailer, dry van, refrigerated van, shipping container, or tanker, our team specializes in finding the ideal power-only truck solution for any transport need. With our service, you can ensure smooth and efficient transportation every time.
+            At Dispatch Geniuses we work hand in hand with owner operators and fleets by providing them with power only loads, getting you the highest paying loads. From a normal perspective, power only trucking focuses only on the independent driver or a tractor to bear the burden of the trailers. This results in increased flexibility for the driver while also saving time / resources of the shippers. You don’t have to manage match loads, speak to the customers, take care of billing and papers as everything is taken care of, which lets you drive. With our services, cash flow, job satisfaction and the ability to accept preferred loads / routes is all guaranteed. Let us at Dispatch Geniuses help you streamline all your processes as a result increasing your effectiveness. Talk to us now to get more insights on power only dispatch solutions!
             </p>
           </div>
           <div

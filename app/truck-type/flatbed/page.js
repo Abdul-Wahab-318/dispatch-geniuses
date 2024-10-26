@@ -9,9 +9,9 @@ export default function Page() {
           <div className="col-12 col-md-7">
             <h1 className="mb-4">Flatbed</h1>
             <ul className="article-bullets">
-              <li>Expert load matching for high-paying flatbed freight</li>
-              <li>Compliance assistance with permits for oversized loads</li>
-              <li>Support with load securement and tarping logistics</li>
+              <li>We provide you with high-paying flatbed freight</li>
+              <li>We take care of the permits</li>
+              <li>Assistance with load securement and tarping</li>
               <li>We charge only 5% of Gross, No contracts</li>
             </ul>
           </div>
@@ -24,19 +24,10 @@ export default function Page() {
         <div className="row">
           <div className="col-12 col-md-6">
             <h2 className="text-6xl lg:text-5xl" id="reefer-dispatch">
-              <strong>Our Step Deck Dispatch Service</strong>
+              <strong>Our Flatbed Dispatch Service</strong>
             </h2>
             <p>
-              Your flatbed truck is a powerhouse in heavy-duty transportation,
-              supporting industries in ways that other vehicles can't match.
-              <br />
-              Whether it’s delivering essential materials like piping, beams,
-              and frames for construction projects, supplying landscaping sites
-              with large quantities of materials and ballast, or transporting
-              oversized equipment, flatbed trucks are key to heavy-duty
-              logistics. These vehicles play a vital role in ensuring that
-              bulky, irregularly shaped items get where they’re needed
-              efficiently and safely, keeping critical projects on track.
+            At Dispatch Geniuses, we have the necessary support services where we have grown to take flatbed trucking to the top. Our day-to-day activities enable our customers to focus on other essential areas of their businesses. Flatbed truckers work as the backbone in handling construction materials and oversized equipment that keeps the economy afloat. Our specialists connect you with high paying loads ensuring the wellbeing of your investments and generation of steady income. Thanks to our efficient operational processes, trusted clients, and clear communication – doing business with us is comfortable. Whether you have to deal with paperwork or deal with the rate negotiation – we will do it for you and you can concentrate on driving. Reach out to us today for a quote and allow us at Dispatch Geniuses to do the rest!
             </p>
           </div>
           <div
