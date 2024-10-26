@@ -6,7 +6,6 @@
 .article ul li {
   position: relative;
   line-height: 1.6;
-  font-family: Logity, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -188,7 +187,6 @@
   }
   .article .home-get-started__list li {
     font-weight: 700;
-    font-family: "Logity Expanded", sans-serif;
     font-size: 15px;
   }
   .article .home-get-started__list {
@@ -216,7 +214,6 @@
     margin-top: 2em;
   }
   .brokerage .brokerage__head {
-    font: 700 2.125em/1 "Logity Expanded", sans-serif;
     margin: 0.125em 0 0.75em;
   }
   .brokerage .brokerage__head::before {
@@ -240,7 +237,6 @@
   }
   .brokerage .brokerage__list .brokerage__list-item {
     position: relative;
-    font-family: Logity, sans-serif;
     font-size: 2em;
     font-weight: 400;
   }

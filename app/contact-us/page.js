@@ -1,8 +1,6 @@
-import Image from "next/image"
 import PageHeader from "../components/PageHeader/pageHeader"
 import "./style.css"
 import Link from "next/link"
-import { Faq } from "../components/Faq/faq"
 import ContactForm from "../components/ContactForm/contactForm"
 
 export default function Contact() {
@@ -32,7 +30,7 @@ export default function Contact() {
         <div className="container">
           <div className="row">
             <h1 className="h2 contact-us__title">Contact us</h1>
-            <p className="text-5xl xl:text-4xl">
+            <p className="text-[18px] lg:text-[20px]">
               Whether you need a consultation about our
               <Link href="/services"> services</Link> or want to get a free
               quote, our logistics experts are always happy to help.

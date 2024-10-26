@@ -15,7 +15,7 @@ const Footer = () => {
               <p role="status" aria-live="polite" aria-atomic="true" />
               <ul />
             </div>
-            <form
+            {/* <form
               action="https://logitydispatch.com/#wpcf7-f1677-o3"
               method="post"
               className="wpcf7-form init"
@@ -49,17 +49,16 @@ const Footer = () => {
                 </button>
               </div>
               <div className="wpcf7-response-output" aria-hidden="true" />
-            </form>
+            </form> */}
           </div>
         </div>
-        <style dangerouslySetInnerHTML={{ __html: "" }} />
       </div>
       <div className="container footer__inner">
         <div className="row footer__middle">
           <div className="col-12 col-md-6 col-lg-3">
-            <a className="footer__logo" href="index.html">
+            <Link className="footer__logo" href="index.html">
                 <Image src={'/images/logos/logo-header.svg'} width={320} height={320} />
-            </a>
+            </Link>
           </div>
           <div className="col-12 col-md-6 col-lg-3">
             <div className="footer__middle-col footer__middle-col--1">
@@ -74,31 +73,31 @@ const Footer = () => {
                   id="menu-item-377"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-377"
                 >
-                  <a href="about/index.html">About us</a>
+                  <Link href="about/">About us</Link>
                 </li>
                 <li
                   id="menu-item-378"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"
                 >
-                  <a href="contact-us/index.html">Contact us</a>
+                  <Link href="contact-us/">Contact us</Link>
                 </li>
                 <li
                   id="menu-item-379"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-379"
                 >
-                  <a href="services/index.html">Services &amp; Pricing</a>
+                  <Link href="services/">Services</Link>
                 </li>
                 <li
                   id="menu-item-380"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"
                 >
-                  <a href="trucks/index.html">Truck types</a>
+                  <Link href="trucks/">Truck types</Link>
                 </li>
                 <li
                   id="menu-item-393"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"
                 >
-                  <a href="/terms-of-service/">Terms of service</a>
+                  <Link href="/terms-of-service/">Terms of service</Link>
                 </li>
               </ul>
             </div>
@@ -116,25 +115,19 @@ const Footer = () => {
                   id="menu-item-381"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"
                 >
-                  <a href="faq/index.html">FAQ</a>
+                  <Link href="/faq/">FAQ</Link>
                 </li>
                 <li
                   id="menu-item-382"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-382"
                 >
-                  <a href="how-to-start/index.html">How to start</a>
-                </li>
-                <li
-                  id="menu-item-383"
-                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"
-                >
-                  <a href="testimonials/index.html">Testimonials</a>
+                  <Link href="/how-to-start/">How to start</Link>
                 </li>
                 <li
                   id="menu-item-384"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"
                 >
-                  <a href="blog/index.html">Blog</a>
+                  <Link href="/blog/">Blog</Link>
                 </li>
                 <li
                   id="menu-item-392"
@@ -153,14 +146,14 @@ const Footer = () => {
               <ul>
                 <li className="d-flex mb-[24px]">
                   <Image src={'/images/icons/phone.png'} width={20} height={2} />
-                  <a href="tel:6822972200" className="p2 ps-2">
+                  <Link href="tel:6822972200" className="p2 ps-2">
                         (682) 297 2200{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li className="d-flex">
                     <Image src={'/images/icons/email.png'} width={20} height={2} className="mr-3" />
 
-                  <a
+                  <Link
                     className="p2"
                     href="mailto:info@dispatchgeniuses.com"
                   >
@@ -169,7 +162,7 @@ const Footer = () => {
                     >
                       info@dispatchgeniuses.com
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="d-flex align-items-center">
                 <Image src={'/images/icons/location.png'} width={20} height={2} className="mr-3" />
@@ -196,21 +189,21 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-6 col-md-2 d-flex justify-content-end align-items-center footer__socials">
-            <a href="https://www.facebook.com/logity.dispatch" target="_blank">
+            <Link href="https://www.facebook.com/logity.dispatch" target="_blank">
                 <Image src={'/images/icons/fb.png'} width={20} height={2} className="mr-3" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.youtube.com/channel/UCy-13G7jkP013j88dF1ngAg"
               target="_blank"
             >
                 <Image src={'/images/icons/youtube.png'} width={25} height={2} className="mr-3" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.instagram.com/logity_dispatch/?igshid=MzRlODBiNWFlZA%3D%3D"
               target="_blank"
             >
                 <Image src={'/images/icons/instagram.png'} width={20} height={2} className="mr-3" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

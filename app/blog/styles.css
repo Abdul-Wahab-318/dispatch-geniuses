@@ -1,0 +1,27 @@
+
+.breadcrumbs {
+  padding: 1.3rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.breadcrumbs span {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.blog-wrapper .section-lg{
+  padding-top: 50px ;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1092px;
+  }
+}
+
+@media (max-width: 576px){
+    .list-questions{
+        font-size: 18px;
+    }
+    .contacts-days{
+        list-style: disc;
+    }
+}

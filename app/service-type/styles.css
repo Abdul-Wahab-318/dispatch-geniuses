@@ -190,9 +190,7 @@ h1 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  body {
-    font-family: "Logity Expanded", sans-serif;
-  }
+  
   .h1,
   .h2,
   .h4,
@@ -220,7 +218,6 @@ h1 {
     margin-bottom: 2rem;
     font-weight: 400;
     font-size: 16px;
-    font-family: Logity, sans-serif;
     line-height: 1.2;
   }
   .h1::before,
@@ -241,7 +238,6 @@ h1 {
   .p2 {
     font-weight: 400;
     font-size: 15px;
-    font-family: Logity, sans-serif;
   }
   .sprites-svg-container {
     display: none;
@@ -292,7 +288,6 @@ h1 {
   .article ul li {
     position: relative;
     line-height: 1.6;
-    font-family: Logity, sans-serif;
     font-size: 16px;
     font-weight: 400;
   }

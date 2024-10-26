@@ -4,6 +4,7 @@ import Link from "next/link"
 import Testimonials from "@/app/components/testimonials/testimonials"
 import BlogGrid from "./components/BlogGrid/blogGrid"
 import StepperComponent from "./components/Stepper/stepper"
+import ContactForm from "./components/ContactForm/contactForm"
 
 export default function Home() {
   const services = [
@@ -143,7 +144,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="hidden md:flex col-12 col-md-6 ">
-                  <div className="form rounded-lg">
+                  {/* <div className="form rounded-lg">
                     <div className="form__title h4 text-5xl">
                       Contact us for free setup
                     </div>
@@ -388,7 +389,8 @@ export default function Home() {
                         />
                       </form>
                     </div>
-                  </div>
+                  </div> */}
+                  <ContactForm/>
                 </div>
               </div>
             </div>

@@ -55,4 +55,7 @@
         width: 22px;
         height: 22px;
     }
+    .stepper-main p , .stepper-main li .stepper-main span{
+        font-size: 16px ;
+    }
 }

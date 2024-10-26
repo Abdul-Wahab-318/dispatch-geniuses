@@ -47,18 +47,18 @@ export default function StepperComponent() {
   return (
     <PrimeReactProvider>
       <div className="card flex justify-content-center my-8 w-full">
-        <Stepper ref={stepperRef} className="text-4xl w-full">
+        <Stepper ref={stepperRef} className="text-4xl w-full stepper-main">
           <StepperPanel header="Step I" className="text-5xl w-full">
             <div className="flex flex-column h-12rem">
               <div className="content-wrapper font-medium text-5xl">
                 <div className="carousel-item_">
                   <h2 className="step-heading text-6xl">Step 1</h2>
-                  <h3 className="text-4xl sm:text-5xl lg:text-4xl mt-5 mb-5">
+                  <h3 className="text-[16px] sm:text-5xl lg:text-4xl mt-5 mb-5">
                     Before we hit the road together, make sure you have the
                     basics covered!
                   </h3>
                   <ul
-                    className="text-4xl sm:text-5xl lg:text-4xl font-semibold ms-2 mt-4"
+                    className="text-[16px] sm:text-5xl lg:text-4xl font-semibold ms-2 mt-4"
                     style={{ listStyle: "disc" }}
                   >
                     <li>
@@ -157,12 +157,12 @@ export default function StepperComponent() {
               <div className="content-wrapper font-medium">
                 <div className="carousel-item_">
                   <h2 className="step-heading text-6xl">Step 3</h2>
-                  <h3 className="text-4xl sm:text-5xl lg:text-4xl mt-5">
+                  <h3 className="text-[16px] sm:text-5xl lg:text-4xl mt-5">
                     Let’s make sure all the paperwork is in order. Here’s what
                     you’ll need,
                   </h3>
                   <ul
-                    className="text-4xl sm:text-5xl lg:text-4xl font-semibold ms-2 mt-4"
+                    className="text-[16px] sm:text-5xl lg:text-4xl font-semibold ms-2 mt-4"
                     style={{ listStyle: "disc" }}
                   >
                     <li>
@@ -204,7 +204,7 @@ export default function StepperComponent() {
             <div className="flex flex-column h-12rem">
               <div className="content-wrapper font-medium">
                 <h2 className="step-heading text-6xl">Step 4</h2>
-                <h3 className="text-4xl sm:text-5xl lg:text-4xl mt-5">
+                <h3 className="text-[16px] sm:text-5xl lg:text-4xl mt-5">
                   Let's Hit the Road! <br />
                   Congratulations, you’re all set! You’ll receive a call from
                   one of our agents within the next business day.
