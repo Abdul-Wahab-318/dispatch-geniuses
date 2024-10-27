@@ -35,7 +35,7 @@ export default function Page() {
             style={{ position: "relative" }}
           >
             <Image
-              src={"/images/hot-shot-1.avif"}
+              src={"/images/box-truck-2.avif"}
               layout="fill"
               objectFit="contain"
             />

@@ -235,11 +235,11 @@ export default function Home() {
                       id="home-stats-num-1"
                     >
                       <span className="font-bold text-8xl text-white">
-                        1,000 +
+                        $34K+
                       </span>
                     </div>
-                    <div className="h4 home-stats__name text-white font-bold">
-                      Loads Booked
+                    <div className="h4 home-stats__name text-white text-[26px]  font-normal ">
+                      In a month , on a Box Truck
                     </div>
                   </div>
                 </div>
@@ -247,11 +247,11 @@ export default function Home() {
                   <div className="home-stats__item">
                     <div className="h3 home-stats__num" id="home-stats-num-2">
                       <span className="font-bold text-8xl text-white">
-                        $7,000 +
+                        $10K+
                       </span>
                     </div>
-                    <div className="h4 home-stats__name font-bold text-white">
-                      Average Gross Revenue
+                    <div className="h4 home-stats__name text-[26px]  font-normal  text-white">
+                      In a week , on a Box Truck
                     </div>
                   </div>
                 </div>
@@ -259,11 +259,11 @@ export default function Home() {
                   <div className="home-stats__item mb-0">  
                     <div className="h3 home-stats__num" id="home-stats-num-3">
                       <span className="text-white font-bold text-8xl">
-                        $34,000
+                        $7K+
                       </span>
                     </div>
-                    <div className="h4 home-stats__name text-white font-bold ">
-                      Best Month For Box Truck
+                    <div className="h4 home-stats__name text-[26px]  font-normal text-white ">
+                      Average Revenue
                     </div>
                   </div>
                 </div>

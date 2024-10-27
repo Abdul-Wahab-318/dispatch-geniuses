@@ -6,7 +6,7 @@ import ContactForm from "../components/ContactForm/contactForm"
 export default function Contact() {
   return (
     <div className="main-wrapper shipper-broker-page">
-      <PageHeader />
+      <PageHeader img_url="/images/contact-header.webp" />
       <div className="container breadcrumbs-container">
         <div className="row">
           <div className="col-12">

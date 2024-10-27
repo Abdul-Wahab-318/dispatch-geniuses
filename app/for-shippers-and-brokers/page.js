@@ -10,7 +10,7 @@ import EmailBtn from "../components/emailBtn"
 export default function Shippers() {
   return (
     <div className="main-wrapper shipper-broker-page">
-      <PageHeader />
+      <PageHeader img_url="/images/shippers-header.avif" />
       <div className="container breadcrumbs-container">
         <div className="row">
           <div className="col-12">

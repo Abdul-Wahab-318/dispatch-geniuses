@@ -10,7 +10,7 @@ import PageHeader from "../components/PageHeader/pageHeader"
 export default function About() {
   return (
     <div className="main-wrapper">
-      <PageHeader img_url="/images/about-header.webp" />
+      <PageHeader img_url="/images/about-header.avif" />
       <div className="container breadcrumbs-container">
         <div className="row">
           <div className="col-12">

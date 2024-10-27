@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function Services() {
   return (
     <div className="main-wrapper">
-      <PageHeader />
+      <PageHeader img_url="/images/truck-header.avif" />
       <div className="container breadcrumbs-container">
         <div className="row">
           <div className="col-12">

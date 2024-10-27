@@ -7,7 +7,7 @@ export default function GetStarted() {
 
   return (
     <div className="main-wrapper">
-      <PageHeader img_url="/images/about-header.webp" />
+      <PageHeader img_url="/images/contact-header.webp" />
       <div className="container breadcrumbs-container ">
         <div className="row">
           <div className="col-12">

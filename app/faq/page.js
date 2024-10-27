@@ -7,7 +7,7 @@ import { Faq } from "../components/Faq/faq"
 export default function FAQ() {
   return (
     <div className="main-wrapper shipper-broker-page">
-      <PageHeader />
+      <PageHeader img_url="/images/faq-header.webp" />
       <div className="container breadcrumbs-container">
         <div className="row">
           <div className="col-12">
