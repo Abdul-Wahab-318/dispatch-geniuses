@@ -2914,6 +2914,13 @@ h1::before {
   p ,h1,h2,h3,h4 ,span,li{
     color: white !important;
   }
+  .home-services__item{
+    border: 2px solid #009aff;
+  }
+  .btn{
+    color: white;
+  }
+
 }
 
 .gotop {

@@ -4,56 +4,6 @@ const Footer = () => {
   return (
     <footer className="footer bg-black" >
       <div className="container footer__inner">
-        <div className="subscribe-form">
-          <div
-            className="wpcf7 no-js"
-            id="wpcf7-f1677-o3"
-            lang="en-US"
-            dir="ltr"
-          >
-            <div className="screen-reader-response">
-              <p role="status" aria-live="polite" aria-atomic="true" />
-              <ul />
-            </div>
-            {/* <form
-              action="https://logitydispatch.com/#wpcf7-f1677-o3"
-              method="post"
-              className="wpcf7-form init"
-              aria-label="Contact form"
-              noValidate="novalidate"
-              data-status="init"
-            >
-
-              <div className="form__line">
-                <div className="form__headline text-3xl">
-                  The most useful articles, tips, and analysis for truckers.
-                  Twice a month.
-                </div>
-              </div>
-              <div className="form__line">
-                <span className="wpcf7-form-control-wrap" data-name="email">
-                  <input
-                    size={40}
-                    maxLength={400}
-                    className="text-3xl"
-                    aria-required="true"
-                    aria-invalid="false"
-                    placeholder="Email address"
-                    defaultValue=""
-                    type="email"
-                    name="email"
-                  />
-                </span>
-                <button className="btn btn-danger" type="submit">
-                  Subscribe
-                </button>
-              </div>
-              <div className="wpcf7-response-output" aria-hidden="true" />
-            </form> */}
-          </div>
-        </div>
-      </div>
-      <div className="container footer__inner">
         <div className="row footer__middle">
           <div className="col-12 col-md-6 col-lg-3">
             <Link className="footer__logo bg-black" href="index.html" >

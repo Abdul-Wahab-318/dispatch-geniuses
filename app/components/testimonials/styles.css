@@ -55,15 +55,7 @@
     background-size: contain;
     background-position: center;
 }
-/* .desc-slider-nav{
-    max-width: 313px;
-}
-.desc-slider-nav .slick-list .slick-track .slick-slide{
-    width: auto !important;
-    margin-right: 20px;
-    cursor: pointer;
-} */
-/* .desc-slider-nav .slick-list .slick-track .slick-current div */
+
  .slider-nav-item div{
     border: 4px solid #009AFF;
 }
@@ -230,3 +222,9 @@
     }
 
 }
+
+@media (prefers-color-scheme: dark) {
+    .testimonials{
+        background-color: black !important;
+    }
+  }
