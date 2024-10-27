@@ -1,14 +1,14 @@
 import Link from "next/link"
 import Image from "next/image"
 
-export default function Layout({img_url = "/images/stats-bg.webp" , children}) {
+export default function Layout({children}) {
   return (
     <div className="main-wrapper shipper-broker-page">
       <header className="header header-blog">
         <Image
           unoptimized
           priority
-          src={img_url}
+          src={"/images/stats-bg.webp" }
           layout="fill"
           style={{ objectFit: "cover" }}
         />

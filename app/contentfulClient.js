@@ -1,9 +1,9 @@
 const contentful = require('contentful')
 
 const client = contentful.createClient({
-  space: 'hclx72fjlbsk',
-  environment: 'master', // defaults to 'master' if not set
-  accessToken: 'p1mje5aSmoi52Ub8ByganNUHIbZuMRCT3ZG9Hv0dJ6A'
+  space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE,
+  environment: 'master', 
+  accessToken: process.env.NEXT_PUBLIC_API_KEY
 })
 
 export default client
