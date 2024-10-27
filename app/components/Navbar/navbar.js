@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <header className="bg-black ">
       <div className="navbar__inner flex items-center justify-between px-4 py-2 ">
-        <Link href="/" className="flex items-center gap-2" prefetch={false}>
+        <Link href="/" className="flex items-center gap-2 bg-black"  prefetch={false}>
           <Image
             src={"/images/logos/logo-sm.svg"}
             className="w-[60px] h-[60px] lg:w-[100px] lg:h-[80px] "
@@ -80,13 +80,13 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="hidden md:block">
-          <a
+          <Link
             className="nav-link px-[3.2rem] py-[2rem] lg:px-[4.4rem]  lg:py-[1.8rem] btn-danger navbar__btn rounded-lg text-3xl"
             href="tel:6822972200"
           >
             {" "}
             (682) 297 2200
-          </a>
+          </Link>
         </div>
         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
           <SheetTrigger asChild onClick={openSheet}>

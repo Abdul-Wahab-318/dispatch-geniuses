@@ -56,7 +56,7 @@ const Footer = () => {
       <div className="container footer__inner">
         <div className="row footer__middle">
           <div className="col-12 col-md-6 col-lg-3">
-            <Link className="footer__logo" href="index.html">
+            <Link className="footer__logo bg-black" href="index.html" >
                 <Image src={'/images/logos/logo-header.svg'} width={320} height={320} />
             </Link>
           </div>

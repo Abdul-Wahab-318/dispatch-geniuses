@@ -2904,6 +2904,18 @@ h1::before {
     opacity: 0;
   }
 }
+
+/* Override dark mode by defining specific colors for it */
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: #000000; /* Override with light colors */
+      color: white;
+  }
+  p ,h1,h2,h3,h4 ,span,li{
+    color: white !important;
+  }
+}
+
 .gotop {
   bottom: 128px;
 }
