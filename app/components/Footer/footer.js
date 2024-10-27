@@ -167,7 +167,7 @@ const Footer = () => {
                 <li className="d-flex align-items-center">
                 <Image src={'/images/icons/location.png'} width={20} height={2} className="mr-3" />
                   <div className="p2">
-                  661 St Andrew Ln Prosper TX, 75078
+                  Prosper TX
                   </div>
                 </li>
                 <li className="d-flex align-items-center">

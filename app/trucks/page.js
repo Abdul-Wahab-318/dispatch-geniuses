@@ -3,7 +3,7 @@ import PageHeader from "../components/PageHeader/pageHeader"
 import "./style.css"
 import Link from "next/link"
 
-export default function Services() {
+export default function Trucks() {
   return (
     <div className="main-wrapper">
       <PageHeader />
@@ -39,7 +39,7 @@ export default function Services() {
               <div className="services__txt">
                 <h2 className="h3">Dry Van</h2>
                 <p>
-                Dry van drivers often encounter long wait times at docks, inconsistent load availability, and challenges with securing profitable backhauls. These issues can impact earnings and lead to wasted time.
+                Dry van drivers face long waiting times at docks, low volume of loads, and difficulty finding backhauls that pay well. All these problems tend to have an adverse effect on earnings and lead to idling. 
                 </p>
                 <Link href="/truck-type/dry-van/" className="link">
                   Read more
@@ -55,7 +55,7 @@ export default function Services() {
               <div className="services__txt">
                 <h2 className="h3">Step Deck</h2>
                 <p>
-                Step deck drivers often face challenges with oversized or awkwardly shaped freight and specialized permits. We help you avoid the stress by ensuring your loads are ready to roll, legally and efficiently.
+                Drivers of step deck trailers normally have complications like dealing with oversized loads, specialized permits, and lack of consistent freight. These problems may cause extended downtimes, and complications in handling loads.
                 </p>
                 <Link href="/truck-type/step-deck/" className="link">
                   Read more
@@ -87,12 +87,7 @@ export default function Services() {
               <div className="services__txt">
                 <h2 className="h3">Flatbed</h2>
                 <p>
-                  Your flatbed truck is a heavy-duty vehicle. As such, it
-                  supports our economy in ways that other vehicles simply
-                  cannot. <br />
-                  Here at Logity Dispatch, we want to be your partner, providing
-                  you with the dispatch services you need to connect you and
-                  your flatbed with the clients who will benefit the most.
+                Flatbed operators undertake the strenuous task of strapping down bulky items, applying tarps, and getting permits for oversized freight. Even more challenging is finding well-paying and loads while balancing equipment requirements.
                 </p>
                 <Link href="/truck-type/flatbed/" className="link">
                   Read more
@@ -109,7 +104,7 @@ export default function Services() {
               <div className="services__txt">
                 <h2 className="h3">Power Only</h2>
                 <p>
-                Power-only drivers often face challenges with finding consistent trailer loads, managing trailer maintenance, and avoiding deadhead miles. This can result in reduced profitability and inefficiencies.
+                Most of the power-only drivers experience difficulties in getting consistent trailer loads, maintaining and managing the trailers, and avoiding deadhead miles as well. This leads to reduced profitability and increased inefficiencies which could otherwise be avoided.
                 </p>
                 <Link href="/truck-type/power-only/" className="link">
                   Read more
@@ -125,7 +120,7 @@ export default function Services() {
               <div className="services__txt">
                 <h2 className="h3">Hotshot</h2>
                 <p>
-                Hot shot drivers are under constant pressure to meet tight deadlines and keep their equipment in top shape while dealing with fluctuating demand for urgent, small-load deliveries.
+                Always in a rush, hot shot drivers are under a lot of pressure as they work around the clock to deliver small, urgent orders while maintaining their trucks in decent shape and understanding fluctuating demand.
                 </p>
                 <Link href="/truck-type/hotshot/" className="link">
                   Read more
@@ -141,7 +136,7 @@ export default function Services() {
               <div className="services__txt">
                 <h2 className="h3">Boxtruck</h2>
                 <p>
-                Box truck drivers often struggle with urban congestion, tight delivery schedules, and the unpredictability of short-haul demand. These factors make it hard to stay consistent and profitable.
+                Driving a box truck is a tricky business. Box truck drivers often have to struggle with the tight time schedule for the deliveries, unpredictable backhauls and low rate per mile. These forces create a very difficult situation in terms of consistency and profitability.
                 </p>
                 <Link href="/truck-type/boxtruck/" className="link">
                   Read more

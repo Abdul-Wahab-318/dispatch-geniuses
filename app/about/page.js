@@ -57,31 +57,6 @@ export default function About() {
               Make us a call and let’s discuss how we can crank up your
               business.
             </p>
-            {/* <hr className="wp-block-separator has-css-opacity is-style-wide" />
-            <YoutubeVideo />
-            <hr className="wp-block-separator has-css-opacity is-style-wide" /> */}
-            {/* <p>
-              We give special attention and priority to all the drivers we are
-              working with. To ensure that you get the highest paying loads, we
-              provide every customer with a dedicated dispatcher and 24 / 7
-              support. You have the right to change your dispatcher and choose
-              another specialist if you’re not satisfied with them.
-              <br />
-              <br />
-              Logity Dispatch services include rate negotiation and all the
-              conversation with the brokers and shippers. We make every effort
-              to get the best freight by the highest price for our clients.
-              Though, there is no forced dispatch: drivers may decline any loads
-              if they want to.
-              <br />
-              <br />
-              Our head office is located in Wilmington, DE, although we dispatch
-              drivers from all across the US.
-              <br />
-              <br />
-              If you need any additional information about our business,
-              services, or privileges, feel free to contact us:
-            </p> */}
           </div>
           <div className=" w-[65%] min-w-[200px] mx-auto my-10 md:my-0  md:w-full md:flex about__buttons">
             <ContactBtn />

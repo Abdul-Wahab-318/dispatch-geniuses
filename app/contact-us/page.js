@@ -31,24 +31,20 @@ export default function Contact() {
           <div className="row">
             <h1 className="h2 contact-us__title">Contact us</h1>
             <p className="text-[18px] lg:text-[20px]">
-              Whether you need a consultation about our
-              <Link href="/services"> services</Link> or want to get a free
-              quote, our logistics experts are always happy to help.
+            Are you ready to optimize your trucking business? Whether you are searching for a free quote or high quality advice – we have you covered.
             </p>
           </div>
           <ul className="list-questions">
             <li>
-              Ask your question: Our specialists will dispel any doubts and
-              provide all the necessary information for the best solution to
-              your needs.
+              <strong>Let’s Chat:</strong>  We are available to answer any questions, to clear any doubt and to propose the best dispatch solution to your needs.
             </li>
             <li>
-              Fill out the short form below, and we will prepare a personalized
-              load plan tailored to your specific requirements.
+              <strong>Get Started:</strong>
+             Just fill out the box below and we’ll create custom load plan just for you.
             </li>
             <li>
-              Quick response: Expect a call from our logistician soon. We will
-              ensure clear communication at all stages of cooperation.
+              <strong>Fast Response:</strong>
+             You can expect a quick response from our dispatch team.
             </li>
           </ul>
           <div className="contacts-block-items text-5xl xl:text-4xl">
@@ -66,6 +62,7 @@ export default function Contact() {
                 <li>Sunday: Closed</li>
               </ul>
             </div>
+            <strong>We’re here to keep your wheels turning!</strong>
             <div className="contacts-block-item">
               <h4 className="contacts-main-title font-bold  text-5xl xl:text-4xl">
                 Follow us on our social media channels to stay updated
@@ -190,7 +187,7 @@ export default function Contact() {
                     <div className="contact-us__row">
                         <p>Head Office</p>
                         <h2 className="font-bold text-4xl">
-                        661 St Andrew Ln Prosper TX, 75078
+                        Prosper , TX
                         </h2>
                     </div>
                     <div className="contact-us__row">

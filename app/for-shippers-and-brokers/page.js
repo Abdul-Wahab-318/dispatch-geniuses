@@ -195,7 +195,7 @@ export default function Shippers() {
                   </span>
                 </li>
               </ul>
-              <h2 className="wp-block-heading mt-5 mb-12 text-6xl md:text-5xl" id="why-rely-on-logity-dispatch">
+              <h2 className="wp-block-heading mt-5 mb-12 text-6xl md:text-5xl" id="why-rely-on-dispatch-geniuses">
                 <strong>Partner with Dispatch Geniuses Today</strong>
               </h2>
               <p>
