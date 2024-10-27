@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 
-export default async function Page({img_url = "/images/stats-bg.webp" , children}) {
+export default function Layout({img_url = "/images/stats-bg.webp" , children}) {
   return (
     <div className="main-wrapper shipper-broker-page">
       <header className="header header-blog">
