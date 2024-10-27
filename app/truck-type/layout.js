@@ -68,10 +68,10 @@ export default function Layout({ children }) {
                   </a>
                   <a
                     className="btn choose-your-service__item"
-                    href="/service-type/paperwork-management/"
+                    href="/service-type/accounting-invoicing/"
                     title="Billing"
                   >
-                    Paperwork Management
+                    Accounting & Invoicing
                   </a>
                   <a
                     className="btn choose-your-service__item"
@@ -82,24 +82,17 @@ export default function Layout({ children }) {
                   </a>
                   <a
                     className="btn choose-your-service__item"
-                    href="/service-type/document-management-paperwork/"
+                    href="/service-type/paperwork-management/"
                     title="Document Management<br> & Paperwork"
                   >
-                    Document Management
+                    Paperwork Management
                   </a>
                   <a
                     className="btn choose-your-service__item"
-                    href="/service-type/safety-dot-compliance/"
+                    href="/service-type/dot-compliance/"
                     title="SAFETY / DOT compliance"
                   >
                     SAFETY &amp; DOT Compliance
-                  </a>
-                  <a
-                    className="btn choose-your-service__item"
-                    href="/service-type/rate-negotiation/"
-                    title="Rate negotiation"
-                  >
-                    Rate Negotiation
                   </a>
                   <a
                     className="btn choose-your-service__item"

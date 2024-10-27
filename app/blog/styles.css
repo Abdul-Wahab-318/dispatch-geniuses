@@ -10,6 +10,28 @@
 .blog-wrapper .section-lg{
   padding-top: 50px ;
 }
+.header-blog.header-blog{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-blog.header-blog a {
+  background-color: #009aff;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 0.5rem;
+}
+
+.blog-body h1{
+  font-size: 46px !important;
+}
+.blog-body h2{
+  font-size: 34px !important;
+}
+.blog-body h3{
+  font-size: 24px !important;
+}
 
 @media (min-width: 1400px) {
   .container {
@@ -25,3 +47,4 @@
         list-style: disc;
     }
 }
+
