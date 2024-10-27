@@ -71,7 +71,7 @@ const Footer = () => {
                   id="menu-item-382"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-382"
                 >
-                  <Link href="/how-to-start/">How to start</Link>
+                  <Link href="/get-started/">How to start</Link>
                 </li>
                 <li
                   id="menu-item-384"

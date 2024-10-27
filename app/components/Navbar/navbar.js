@@ -52,7 +52,7 @@ export default function Navbar() {
             Truck types
           </Link>
           <Link
-            href="/how-to-start"
+            href="/get-started"
             className="text-4xl xl:text-3xl font-medium  underline-offset-4"
             prefetch={false}
           >
@@ -145,7 +145,7 @@ export default function Navbar() {
                 Truck types
               </Link>
               <Link
-                href="/how-to-start"
+                href="/get-started"
                 className=" text-6xl my-8 no-underline text-black  font-medium  underline-offset-4"
                 prefetch={false}
               >

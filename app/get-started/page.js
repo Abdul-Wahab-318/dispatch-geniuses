@@ -3,7 +3,7 @@ import "./styles.css"
 import PageHeader from "../components/PageHeader/pageHeader"
 import StepperComponent from "../components/Stepper/stepper";
 
-export default function HowToStart() {
+export default function GetStarted() {
 
   return (
     <div className="main-wrapper">

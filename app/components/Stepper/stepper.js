@@ -104,7 +104,7 @@ export default function StepperComponent() {
                       >
                         <option value="other">Select a truck</option>
                         {trucks.map((el, ind) => (
-                          <option value={el.toLowerCase()}>{el}</option>
+                          <option value={el.toLowerCase()} key={el.toLowerCase()}>{el}</option>
                         ))}
                       </select>
                     </li>

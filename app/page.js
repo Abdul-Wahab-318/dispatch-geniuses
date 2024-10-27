@@ -10,42 +10,42 @@ export default function Home() {
   const services = [
     {
       name: "Truck Dispatching",
-      href: "/services/dispatching",
+      href: "/service-type/dispatching",
       icon: "/images/icons/dispatch-service-icon.png",
     },
     {
-      name: "Billing",
-      href: "/services/billing",
+      name: "Paperwork Management",
+      href: "/service-type/paperwork-management",
       icon: "/images/icons/billing-service-icon.png",
     },
     {
-      name: "Document Management",
-      href: "/services/document-management-paperwork",
+      name: "Accounting & Invoicing",
+      href: "/service-type/accounting-invoicing",
       icon: "/images/icons/document-service-icon.png",
     },
     {
       name: "Business Expansion",
-      href: "/services/business-expansion",
+      href: "/service-type/business-expansion",
       icon: "/images/icons/business-service-icon.png",
     },
     {
       name: "DOT Compliance",
-      href: "/services/safety-dot-compliance",
+      href: "/service-type/dot-compliance",
       icon: "/images/icons/dot-service-icon.png",
     },
     {
       name: "IFTA",
-      href: "/services/ifta",
+      href: "/service-type/ifta",
       icon: "/images/icons/ifta-service-icon.png",
     },
     {
       name: "Factoring , ELD Insurance",
-      href: "/services/factoring-eld-insurance",
+      href: "/service-type/factoring-service",
       icon: "/images/icons/eld-service-icon.png",
     },
     {
       name: "Company Formation",
-      href: "/services/company-formation",
+      href: "/service-type/company-formation",
       icon: "/images/icons/company-service-icon.png",
     },
   ]
@@ -301,7 +301,7 @@ export default function Home() {
                 {
                   trucks.map((truck , ind) => {
                     return(
-                      <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card">
+                      <div className="col-12 col-sm-2 col-sm-6 col-md-4 home-trucks__card" key={ind}>
                         <div className="home-trucks__card-inner">
                           <Image src={truck.icon} layout="fill" objectFit="cover" style={{'backgroundSize':'100%'}} />
                           <div className="home-trucks__card-overlay">&nbsp;</div>

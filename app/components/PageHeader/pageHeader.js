@@ -17,7 +17,7 @@ export default function PageHeader({img_url = "/images/about-header.webp"}) {
               <div className="hidden">
                 <Link
                   className="header__banner-link"
-                  href="../how-to-start/index.html"
+                  href="/get-started/"
                 >
                   Starting from 5% of gross
                 </Link>
@@ -25,7 +25,7 @@ export default function PageHeader({img_url = "/images/about-header.webp"}) {
               <div className="full-width">
                 <Link
                   className="header__banner-link"
-                  href="../how-to-start/index.html"
+                  href="/get-started/"
                 >
                   Starting from 5% of gross
                 </Link>

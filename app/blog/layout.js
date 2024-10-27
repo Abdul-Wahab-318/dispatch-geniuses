@@ -17,7 +17,7 @@ export default function Layout({children}) {
             <div className="flex-row">
                 <div className="header-banner flex gap-16 items-center justify-center">
                     <h2 className="mb-0 text-white sm:text-7xl lg:text-7xl">Get More Right Loads</h2>
-                    <Link href={'/how-to-start'} className="text-[20px] md:text-[26px] px-[20px] py-[5px] lg:py-[10px] lg:px-[40px]">Apply</Link>
+                    <Link href={'/get-started'} className="text-[20px] md:text-[26px] px-[20px] py-[5px] lg:py-[10px] lg:px-[40px]">Apply</Link>
                 </div>
             </div>
           </div>
