@@ -123,7 +123,7 @@ const Footer = () => {
                 <li className="d-flex align-items-center">
                     <Image src={'/images/icons/time.png'} width={20} height={2} className="mr-3" />
                   <div className="p2">
-                    Mon - Fri (EST) : 9 AM - 6 PM
+                    Mon - Fri (EST) : 9 AM - 5 PM
                     <br />
                     Sat - Sun: Closed
                   </div>
@@ -139,20 +139,26 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-6 col-md-2 d-flex justify-content-end align-items-center footer__socials">
-            <Link href="https://www.facebook.com/logity.dispatch" target="_blank">
+            <Link href="https://www.facebook.com/profile.php?id=61567740634532" target="_blank">
                 <Image src={'/images/icons/fb.png'} width={20} height={2} className="mr-3" />
             </Link>
             <Link
-              href="https://www.youtube.com/channel/UCy-13G7jkP013j88dF1ngAg"
+              href="https://www.youtube.com/@DispatchGeniuses"
               target="_blank"
             >
                 <Image src={'/images/icons/youtube.png'} width={25} height={2} className="mr-3" />
             </Link>
             <Link
-              href="https://www.instagram.com/logity_dispatch/?igshid=MzRlODBiNWFlZA%3D%3D"
+              href="https://www.instagram.com/dispatchgeniuses/"
               target="_blank"
             >
                 <Image src={'/images/icons/instagram.png'} width={20} height={2} className="mr-3" />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/company/dispatch-geniuses/"
+              target="_blank"
+            >
+                <Image src={'/images/icons/linkedin.svg'} width={25} height={2} className="mr-3" />
             </Link>
           </div>
         </div>

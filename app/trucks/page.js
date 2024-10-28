@@ -130,7 +130,7 @@ export default function Trucks() {
           </div>
           <div className="row services__row">
             <div className="col-12 col-md-6 services__col">
-            <Image src={'/images/box-truck-3.png'} layout="fill" objectFit="cover" />
+            <Image src={'/images/box-truck-2.avif'} layout="fill" objectFit="cover" />
             </div>
             <div className="col-12 col-md-6 services__col-right">
               <div className="services__txt">

@@ -41,7 +41,7 @@ export default function Layout({ children }) {
     {
       name: "Boxtruck",
       href: "/truck-type/boxtruck",
-      icon: "/images/box-truck-3.png",
+      icon: "/images/box-truck-2.avif",
     },
   ]
 

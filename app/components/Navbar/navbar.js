@@ -56,7 +56,7 @@ export default function Navbar() {
             className="text-4xl xl:text-3xl font-medium  underline-offset-4"
             prefetch={false}
           >
-            How to start
+            Get Started
           </Link>
           <Link
             href="/for-shippers-and-brokers"
@@ -149,7 +149,7 @@ export default function Navbar() {
                 className=" text-6xl my-8 no-underline text-black  font-medium  underline-offset-4"
                 prefetch={false}
               >
-                How to start
+                Get Started
               </Link>
               <Link
                 href="/for-shippers-and-brokers"
