@@ -3,6 +3,7 @@ import Link from "next/link";
 import '../styles.css'
 import { BLOCKS, INLINES, MARKS } from '@contentful/rich-text-types'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import Popup from "../../components/Popup/popup"
 
 export default async function Page({params}) {
 
@@ -104,6 +105,7 @@ export default async function Page({params}) {
 
   return (
     <div className="main-wrapper blog-page-wrapper">
+      <Popup/>
       <div className="container breadcrumbs-container">
         <div className="row">
           <div className="col-12">
@@ -139,30 +141,6 @@ export default async function Page({params}) {
   )
 }
 
-// export const getStaticProps = async ({ params, preview = false }) => {
-  
-//     const { slug } = params
-//     const response = await client.getEntries({
-//       content_type: 'post',
-//       'fields.slug': slug
-//     })
-  
-//     if (!response?.items?.length) {
-//       return {
-//         redirect: {
-//           destination: '/blog',
-//           permanent: false
-//         }
-//       }
-//     }
-  
-//     return {
-//       props: {
-//         post: response?.items?.[0],
-//         revalidate: 60
-//       }
-//     }
-//   }
 
 // Use generateStaticParams to pre-render paths at build time
 export async function generateStaticParams() {

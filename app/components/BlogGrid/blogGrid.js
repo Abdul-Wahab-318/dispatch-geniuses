@@ -2,6 +2,7 @@ import Link from "next/link"
 import client from "@/app/contentfulClient"
 import BlogCard from "../BlogCard/blogCard"
 
+
 export default async function BlogGrid() {
   const data = await client.getEntries({ content_type: "post" })
   //const data = {items : []}

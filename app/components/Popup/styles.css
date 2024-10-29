@@ -1,0 +1,25 @@
+.popup-wrapper {
+    z-index: 2;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner{
+    max-width: 800px;
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    padding: 40px 50px;
+    border-radius: 1rem;
+
+}
+.popup-inner button{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    font-size: 30px;
+}
