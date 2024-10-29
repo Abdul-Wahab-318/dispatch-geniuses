@@ -3,8 +3,8 @@ import client from "@/app/contentfulClient"
 import BlogCard from "../BlogCard/blogCard"
 
 export default async function BlogGrid() {
-  //const data = await client.getEntries({ content_type: "post" })
-  const data = {items : []}
+  const data = await client.getEntries({ content_type: "post" })
+  //const data = {items : []}
   return (
     <section className="section-lg home-blog">
       <div className="container">
