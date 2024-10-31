@@ -1,12 +1,60 @@
 import Image from "next/image"
 import { Faq } from "./components/Faq/faq"
 import Link from "next/link"
+import Head from "next/head";
 import Testimonials from "@/app/components/testimonials/testimonials"
 import BlogGrid from "./components/BlogGrid/blogGrid"
 import StepperComponent from "./components/Stepper/stepper"
 import ContactForm from "./components/ContactForm/contactForm"
 
+
+export const metadata = {
+  title: "All-in-One Dispatching Services | Truck Dispatch Partner",
+  description:
+    "Reliable dispatching, paperwork management, and compliance solutions for truckers and carriers. Partner with us for efficient trucking services tailored to your business needs.",
+  keywords: [
+    "dispatching services",
+    "truck dispatching",
+    "paperwork management",
+    "DOT compliance",
+    "IFTA",
+    "accounting",
+    "invoicing",
+    "trucking services",
+    "business expansion",
+    "trucking company setup",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "website",
+    title: "All-in-One Dispatching Services | Truck Dispatch Partner",
+    description:
+      "Reliable dispatching, paperwork management, and compliance solutions for truckers and carriers. Partner with us for efficient trucking services tailored to your business needs.",
+    url: "https://dispatchgeniuses.com/",
+    images: [
+      {
+        url: "https://dispatchgeniuses.com/images/about-header.webp",
+        width: 1200,
+        height: 630,
+        alt: "All-in-One Dispatching Services",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "All-in-One Dispatching Services | Truck Dispatch Partner",
+    description:
+      "Reliable dispatching, paperwork management, and compliance solutions for truckers and carriers. Partner with us for efficient trucking services tailored to your business needs.",
+    images: ["https://dispatchgeniuses.com/images/about-header.webp"],
+  },
+};
+
 export default function Home() {
+
+
   const services = [
     {
       name: "Truck Dispatching",
@@ -321,27 +369,6 @@ export default function Home() {
             </div>
           </section>
           <BlogGrid />
-          <section className="section-lg pt-0">
-            <div className="container">
-              <p>
-                <i>
-                  Dear users, our Terms of Service and Privacy Policy (and
-                  Privacy Statements incorporated therein, if any) were updated
-                  today, on December 12th, 2023. Key changes include, among
-                  others, detailed clarification of your rights,
-                  responsibilities, and information about how we collect, use,
-                  and protect your personal data, and about the cookies we use.
-                  Please review the updated versions accessible in the legal
-                  documentation links at the bottom of the Site or as otherwise
-                  may be available on the Site. Your further use of the Site
-                  constitutes your agreement to follow and be bound by the Terms
-                  of Service and Privacy Policy, as changed, and to their
-                  application to all information gathered before and after their
-                  effective date.
-                </i>
-              </p>
-            </div>
-          </section>
           <Testimonials />
           <Faq />
         </div>

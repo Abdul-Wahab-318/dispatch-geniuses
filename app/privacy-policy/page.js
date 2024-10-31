@@ -89,7 +89,7 @@ export default function PrivacyPolicy() {
             <li>To meet our obligations in law.</li>
           </ul>
           <p className="mb-4">
-            Your Personal Data is not sold to other parties.
+            We do not share or sell consumer personal information.
           </p>
 
           <h2 className="text-5xl font-semibold text-gray-700 mt-6 mb-2">

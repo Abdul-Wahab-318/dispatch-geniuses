@@ -5,7 +5,7 @@ import './styles.css'
 
 export default function ContactForm({mc , truckType}) {
 
-  const [state, handleSubmit] = useForm("mdkokdog");
+  const [state, handleSubmit] = useForm("mldejjkv");
   const [email , setEmail] = useState("")
   const [name , setName] = useState("")
   const [phone , setPhone] = useState("")

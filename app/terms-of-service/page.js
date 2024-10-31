@@ -84,6 +84,8 @@ export default function Page() {
           <h2 className="text-5xl font-semibold text-gray-800 mt-6 mb-3">8. Communications</h2>
           <p className="text-gray-600 mb-4">
           By communicating to us via email or in relation with this Site, you are willing to receive some communications from us in electronic form. You further agree that all agreements, notices and any other disclosures that need to be communicated to you and other communications available electronically suffice any legal requirements for written communication.
+          <br /> <br />
+          By providing a telephone number and submitting our form you are consenting to be contacted by SMS text message. Message & data rates may apply. You can reply STOP to opt-out of further messaging.
           </p>
   
           <h2 className="text-5xl font-semibold text-gray-800 mt-6 mb-3">
