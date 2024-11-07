@@ -82,6 +82,7 @@ export default function PrivacyPolicy() {
             3. How We Use Your Information
           </h2>
           <ul className="list-disc list-inside mb-4">
+            <li> <strong>No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All other categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.</strong> </li>
             <li>To provide and enhance our services.</li>
             <li>To follow up on your requests and correspond with you.</li>
             <li>To inform you of modifications to Our Site or Services.</li>

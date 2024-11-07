@@ -167,7 +167,7 @@ export default function ContactForm({mc , truckType}) {
               />
             </span>
           </div>
-          <div className="form-check pt-4 pb-6 flex items-center">
+          <div className="form-check pt-4 pb-0 flex items-center">
             <span className="wpcf7-form-control-wrap" data-name="consent">
               <span className="wpcf7-form-control wpcf7-acceptance">
                 <span className="wpcf7-list-item m-0">
@@ -184,6 +184,25 @@ export default function ContactForm({mc , truckType}) {
             <span className="form-check-label p2 text-[12px] lg:text-[13px] ">
               I have read and agree to{"  "}
               <a href="terms-of-service/index.html">Terms of Service</a>
+            </span>
+
+          </div>
+          <div className="form-check pt-0 pb-6 flex items-center">
+            <span className="wpcf7-form-control-wrap" data-name="consent">
+              <span className="wpcf7-form-control wpcf7-acceptance">
+                <span className="wpcf7-list-item m-0">
+                  <input
+                    type="checkbox"
+                    name="sms"
+                    defaultValue={1}
+                    defaultChecked={true}
+                    aria-invalid="false"
+                  />
+                </span>
+              </span>
+            </span>
+            <span className="form-check-label p2 text-[12px] lg:text-[13px] ">
+            Agree to SMS text message. Message & data rates may apply. <br className="hidden md:block" /> You can reply STOP to opt-out of further messaging
             </span>
           </div>
           <button className="btn btn-lg btn-danger" type="submit">
