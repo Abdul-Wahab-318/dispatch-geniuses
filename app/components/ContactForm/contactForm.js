@@ -21,7 +21,7 @@ export default function ContactForm({mc , truckType}) {
       return false
     }
 
-    if(!phoneRegex.test(phone) && phone.length > 6 && phone.length < 16)
+    if( !phoneRegex.test(phone) || !( phone.length > 6 && phone.length < 20 ) )
     {
       setError("Please enter a valid phone number")
       return false
@@ -49,7 +49,7 @@ export default function ContactForm({mc , truckType}) {
   if (state.succeeded) {
       return <p className="text-5xl font-bold text-center p-8 rounded-lg bg-white   ">Your message has been sent!</p>;
   }
-  console.log(state)
+
   return (
     <div className="form rounded-lg form-box-shadow h-full">
       <div className="form__title h4 text-5xl mb-8">Contact us for free setup</div>
