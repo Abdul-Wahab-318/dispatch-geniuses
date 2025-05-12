@@ -1,7 +1,8 @@
 import BlogGrid from "../components/BlogGrid/blogGrid"
-import PageHeader from "../components/PageHeader/pageHeader"
 import Link from "next/link"
 import './styles.css'
+
+export const revalidate = 10800 // 3 hours
 
 export default async function Page() {
 

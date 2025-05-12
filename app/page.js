@@ -178,15 +178,15 @@ export default function Home() {
                   <div className="row home-header__bottom">
                     <div className="col-12 d-sm-flex">
                       <Link
-                        href="tel:3024259299"
-                        className="btn btn-lg btn-danger rounded-lg inline-flex gap-3 items-center"
+                        href="mailto:info@dispatchgeniuses.com"
+                        className="btn btn-lg btn-danger rounded-lg inline-flex gap-5 items-center"
                       >
                         <Image
-                          src={"/images/icons/phone.png"}
+                          src={"/images/icons/email.png"}
                           width={24}
                           height={24}
                         />
-                        (682) 297 2200
+                        Email Us
                       </Link>
                     </div>
                   </div>

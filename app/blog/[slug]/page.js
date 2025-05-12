@@ -7,6 +7,9 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import Popup from "../../components/Popup/popup"
 import BlogCard from "../../components/BlogCard/blogCard"
 
+export const dynamicParams = true
+export const revalidate = 10800
+
 export default async function Page({ params }) {
   const { slug } = params
 
