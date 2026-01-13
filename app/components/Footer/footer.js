@@ -37,12 +37,12 @@ const Footer = () => {
                 >
                   <Link href="/services">Services</Link>
                 </li>
-                <li
+                {/* <li
                   id="menu-item-380"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"
                 >
                   <Link href="/trucks">Truck types</Link>
-                </li>
+                </li> */}
                 <li
                   id="menu-item-393"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"
@@ -67,12 +67,12 @@ const Footer = () => {
                 >
                   <Link href="/faq/">FAQ</Link>
                 </li>
-                <li
+                {/* <li
                   id="menu-item-382"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-382"
                 >
                   <Link href="/get-started/">How to start</Link>
-                </li>
+                </li> */}
                 <li
                   id="menu-item-384"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"
