@@ -161,37 +161,34 @@ export default function Home() {
             {/* <Image src={'/images/home-header-bg.jpg'} className="bg" width={1800} height={1800} /> */}
             <div className="container home-header__inner">
               <div className="row align-center">
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-12">
                   <div className="row">
                     <h1 className="h1 home-header__title archivo">
-                      <span className="archivo font-bold text-[65px] lg:text-[85px] xl:text-[95px] tracking-wide">
-                        All-in-one
+                      <span className="archivo font-bold text-[35px] lg:text-[45px] xl:text-[65px] tracking-wide">
+                        Box Truck Dispatching That Delivers $20,000/Month — Or You Don't Pay
                       </span>
-                      <span className="archivo font-bold text-[65px] lg:text-[85px] xl:text-[95px] tracking-wide">
-                        Dispatch
-                      </span>
-                      <span className="archivo font-bold text-[65px] lg:text-[85px] xl:text-[95px] tracking-wide">
-                        Partner
+                      <span className="archivo pt-10 md:pt-5 text-[20px] lg:text-[20px] xl:text-[30px] tracking-wide">
+                        We specialize exclusively in box trucks with 1+ year authority. If we don’t hit the numbers, we work for free.
                       </span>
                     </h1>
                   </div>
-                  <div className="row home-header__bottom">
+                  <div className="md:hidden row home-header__bottom">
                     <div className="col-12 d-sm-flex">
                       <Link
-                        href="mailto:info@dispatchgeniuses.com"
+                        href="/contact-us"
                         className="btn btn-lg btn-danger rounded-lg inline-flex gap-5 items-center"
                       >
                         <Image
                           src={"/images/icons/email.png"}
-                          width={24}
-                          height={24}
+                          width={18}
+                          height={18}
                         />
-                        Email Us
+                        Contact Us
                       </Link>
                     </div>
-                  </div>
+                  </div> 
                 </div>
-                <div className="hidden md:flex col-12 col-md-6 ">
+                <div className="hidden md:flex col-12 col-md-12 w-full ">
                   <ContactForm/>
                 </div>
               </div>
@@ -318,7 +315,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className="section-lg home-get-started">
+          {/* <section className="section-lg home-get-started">
             <div className="container">
             <div className="row">
                 <div className="col-12">
@@ -329,8 +326,8 @@ export default function Home() {
               </div>
               <StepperComponent/>
             </div>
-          </section>
-          <section className="section-lg home-trucks bg-black">
+          </section> */}
+          {/* <section className="section-lg home-trucks bg-black">
             <div className="container home-trucks__inner">
               <div className="row">
                 <div className="col-12">
@@ -367,7 +364,7 @@ export default function Home() {
                 }
               </div>
             </div>
-          </section>
+          </section> */}
           <BlogGrid />
           <Testimonials />
           <Faq />

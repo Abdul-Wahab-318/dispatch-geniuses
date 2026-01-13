@@ -9,6 +9,7 @@ export default function ContactForm({mc , truckType}) {
   const [email , setEmail] = useState("")
   const [name , setName] = useState("")
   const [phone , setPhone] = useState("")
+  const [MC_DOT , setMC_DOT] = useState("")
   const [error , setError] = useState(false)
   
   const validate = () =>{
@@ -24,6 +25,13 @@ export default function ContactForm({mc , truckType}) {
     if( !phoneRegex.test(phone) || !( phone.length > 6 && phone.length < 20 ) )
     {
       setError("Please enter a valid phone number")
+      return false
+    }
+
+    //numeric of length 3-7
+    if( !/^\d{3,7}$/.test(MC_DOT) )
+    {
+      setError("Please enter a valid MC or DOT number (3-7 digits)")
       return false
     }
 
@@ -51,7 +59,7 @@ export default function ContactForm({mc , truckType}) {
   }
 
   return (
-    <div className="form rounded-lg form-box-shadow h-full">
+    <div className="form rounded-lg form-box-shadow h-full w-full">
       <div className="form__title h4 text-5xl mb-8">Contact us for free setup</div>
       <div className="wpcf7 no-js" id="wpcf7-f88-o1" lang="en-US" dir="ltr">
         <div className="screen-reader-response">
@@ -64,109 +72,90 @@ export default function ContactForm({mc , truckType}) {
           aria-label="Contact form"
           noValidate="novalidate"
         > 
-          <div className="form__row">
-            <label htmlFor="name" className="form-label p2">
-              Full name
-            </label>
-            <span className="wpcf7-form-control-wrap">
-              <input
-                value={name}
-                onChange={e => setName(e.target.value)}
-                size={40}
-                maxLength={400}
-                className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control p2"
-                id="name"
-                aria-required="true"
-                aria-invalid="false"
-                type="text"
-                name="name"
-              />
-            </span>
+          <div className="form__row row">
+            <div className="col-12 col-md-6">
+              <label htmlFor="name" className="form-label p2">
+                Full name
+              </label>
+              <span className="wpcf7-form-control-wrap">
+                <input
+                  value={name}
+                  onChange={e => setName(e.target.value)}
+                  size={40}
+                  maxLength={400}
+                  className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control p2"
+                  id="name"
+                  aria-required="true"
+                  aria-invalid="false"
+                  type="text"
+                  name="name"
+                />
+              </span>
+            </div>
+
+            <div className="col-12 col-md-6 ">
+              <label htmlFor="phone" className="form-label p2">
+                Phone number
+              </label>
+              <span className="wpcf7-form-control-wrap" data-name="phone">
+                <input
+                  value={phone}
+                  onChange={e => setPhone(e.target.value)}
+                  size={40}
+                  maxLength={400}
+                  className="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel phone form-control p2"
+                  id="phone"
+                  aria-required="true"
+                  aria-invalid="false"
+                  placeholder="+1 (___) ___-__-__"
+                  type="tel"
+                  name="phone"
+                />
+              </span>
+            </div>
           </div>
-          {
-            mc ? (
-              <div className="form__row hidden">
-                <label htmlFor="mc" className="form-label p2">
-                  MC#
-                </label>
-                <span className="wpcf7-form-control-wrap">
-                  <input
-                    size={40}
-                    maxLength={400}
-                    className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control p2"
-                    id="mc"
-                    aria-required="true"
-                    aria-invalid="false"
-                    defaultValue={mc}
-                    type="text"
-                    name="mc"
-                  />
-                </span>
-              </div>
-            )
-            :
-            <></>
-          }
-          {
-            truckType ? (
-              <div className="form__row hidden">
-                <label htmlFor="truckType" className="form-label p2">
-                  Truck Type
-                </label>
-                <span className="wpcf7-form-control-wrap">
-                  <input
-                    className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control p2"
-                    id="truckType"
-                    aria-required="true"
-                    value={truckType}
-                    type="text"
-                    name="truckType"
-                  />
-                </span>
-              </div>
-            )
-            :
-            <></>
-          }
-          <div className="form__row">
-            <label htmlFor="phone" className="form-label p2">
-              Phone number
-            </label>
-            <span className="wpcf7-form-control-wrap" data-name="phone">
-              <input
-                value={phone}
-                onChange={e => setPhone(e.target.value)}
-                size={40}
-                maxLength={400}
-                className="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel phone form-control p2"
-                id="phone"
-                aria-required="true"
-                aria-invalid="false"
-                placeholder="+1 (___) ___-__-__"
-                type="tel"
-                name="phone"
-              />
-            </span>
+
+          <div className="form__row row">
+            <div className="col-12 col-md-6 ">
+              <label htmlFor="MC_DOT" className="form-label p2">
+                MC/DOT Number
+              </label>
+              <span className="wpcf7-form-control-wrap">
+                <input
+                onChange={e => setMC_DOT(e.target.value)}
+                  size={40}
+                  maxLength={7}
+                  className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control p2"
+                  id="MC_DOT"
+                  aria-required="true"
+                  aria-invalid="false"
+                  defaultValue={MC_DOT}
+                  type="number"
+                  name="MC_DOT"
+                />
+              </span>
+            </div>
+            <div className="col-12 col-md-6  ">
+              <label htmlFor="email" className="form-label p2">
+                Email
+              </label>
+              <span className="wpcf7-form-control-wrap">
+                <input
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}
+                  size={40}
+                  maxLength={400}
+                  className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email form-control p2"
+                  id="email"
+                  aria-required="true"
+                  aria-invalid="false"
+                  type="email"
+                  name="email"
+                />
+              </span>
+            </div>
           </div>
-          <div className="form__row">
-            <label htmlFor="email" className="form-label p2">
-              Email
-            </label>
-            <span className="wpcf7-form-control-wrap">
-              <input
-                value={email}
-                onChange={e => setEmail(e.target.value)}
-                size={40}
-                maxLength={400}
-                className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email form-control p2"
-                id="email"
-                aria-required="true"
-                aria-invalid="false"
-                type="email"
-                name="email"
-              />
-            </span>
-          </div>
+
           <div className="form-check pt-4 pb-0 flex items-center">
             <span className="wpcf7-form-control-wrap" data-name="consent">
               <span className="wpcf7-form-control wpcf7-acceptance">
@@ -202,10 +191,10 @@ export default function ContactForm({mc , truckType}) {
               </span>
             </span>
             <span className="form-check-label p2 text-[12px] lg:text-[13px] ">
-            Agree to SMS text message. Message & data rates may apply. <br className="hidden md:block" /> You can reply STOP to opt-out of further messaging
+            Agree to SMS text message. Message & data rates may apply.  You can reply STOP to opt-out of further messaging
             </span>
           </div>
-          <button className="btn btn-lg btn-danger" type="submit">
+          <button className="btn btn-lg btn-danger py-[1.3rem] px-[3rem]" type="submit">
             Send Request
           </button>
 
@@ -213,7 +202,7 @@ export default function ContactForm({mc , truckType}) {
            state.errors?.formErrors.map(error => <p className="text-red font-bold mt-8 mb-0">{error.message}</p> )
           }
           {
-            <p className="text-red font-bold mt-8 mb-0">{error}</p>
+            <p className="text-red-500 font-bold mt-8 mb-0">{error}</p>
           }
           <div className="wpcf7-response-output" aria-hidden="true" />
         </form>

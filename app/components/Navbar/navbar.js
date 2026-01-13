@@ -44,7 +44,7 @@ export default function Navbar() {
           >
             Services
           </Link>
-          <Link
+          {/* <Link
             href="/trucks"
             className="text-4xl xl:text-3xl font-medium   underline-offset-4"
             prefetch={false}
@@ -64,7 +64,7 @@ export default function Navbar() {
             prefetch={false}
           >
             Shippers
-          </Link>
+          </Link> */}
           <Link
             href="/faq"
             className="text-4xl xl:text-3xl font-medium   underline-offset-4"
@@ -82,9 +82,13 @@ export default function Navbar() {
         </div>
         <div className="hidden md:block">
           <Link
-            className="nav-link px-[3.2rem] py-[2rem] lg:px-[4.4rem]  lg:py-[1.8rem] btn-danger navbar__btn rounded-lg text-3xl"
+            className="nav-link flex items-center gap-3 px-[3.2rem] py-[2rem] lg:px-[4rem]  lg:py-[1.8rem] btn-danger navbar__btn rounded-lg text-3xl"
             href="tel:6822972200"
           >
+            <img
+              src={"/images/icons/phone.png"}
+              className="w-[13px] h-[13px] lg:w-[20px] lg:h-[20px]"
+            />
             {" "}
             (682) 297 2200
           </Link>

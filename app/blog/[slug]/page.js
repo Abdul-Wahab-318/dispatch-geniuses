@@ -8,7 +8,7 @@ import Popup from "../../components/Popup/popup"
 import BlogCard from "../../components/BlogCard/blogCard"
 
 export const dynamicParams = true
-export const revalidate = 10800
+export const revalidate = 120 // 2mins
 
 export default async function Page({ params }) {
   const { slug } = params
