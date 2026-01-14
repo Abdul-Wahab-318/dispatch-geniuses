@@ -9,9 +9,9 @@ import ContactForm from "./components/ContactForm/contactForm"
 
 
 export const metadata = {
-  title: "All-in-One Dispatching Services | Truck Dispatch Partner",
+  title: "#1 Box Truck Dispatching ",
   description:
-    "Reliable dispatching, paperwork management, and compliance solutions for truckers and carriers. Partner with us for efficient trucking services tailored to your business needs.",
+    "Make 20,000/month - Or you dont pay ",
   keywords: [
     "dispatching services",
     "truck dispatching",
@@ -30,9 +30,9 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    title: "All-in-One Dispatching Services | Truck Dispatch Partner",
+    title: "#1 Box Truck Dispatching ",
     description:
-      "Reliable dispatching, paperwork management, and compliance solutions for truckers and carriers. Partner with us for efficient trucking services tailored to your business needs.",
+      "Make 20,000/month - Or you dont pay ",
     url: "https://dispatchgeniuses.com/",
     images: [
       {
@@ -45,9 +45,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "All-in-One Dispatching Services | Truck Dispatch Partner",
+    title: "#1 Box Truck Dispatching ",
     description:
-      "Reliable dispatching, paperwork management, and compliance solutions for truckers and carriers. Partner with us for efficient trucking services tailored to your business needs.",
+      "Make 20,000/month - Or you dont pay ",
     images: ["https://dispatchgeniuses.com/images/about-header.webp"],
   },
 };
@@ -172,7 +172,7 @@ export default function Home() {
                       </span>
                     </h1>
                   </div>
-                  <div className="md:hidden row home-header__bottom">
+                  <div className="hidden row home-header__bottom">
                     <div className="col-12 d-sm-flex">
                       <Link
                         href="/contact-us"
@@ -188,7 +188,7 @@ export default function Home() {
                     </div>
                   </div> 
                 </div>
-                <div className="hidden md:flex col-12 col-md-12 w-full ">
+                <div className="md:flex col-12 col-md-12 w-full mt-[-20px]">
                   <ContactForm/>
                 </div>
               </div>
@@ -263,6 +263,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+          <Faq />
           <section className="section-lg home-stats">
             <div className="container home-stats__inner">
               <div className="row">
@@ -367,7 +368,6 @@ export default function Home() {
           </section> */}
           <BlogGrid />
           <Testimonials />
-          <Faq />
         </div>
       </div>
     </div>

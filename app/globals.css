@@ -2034,7 +2034,7 @@ h1::before {
 }
 .home-header .form {
   margin-top: 5rem;
-  background-color: rgba(255, 255, 255, 0.6);
+  /*background-color: rgba(255, 255, 255, 0.6);*/
 }
 .home-header img {
   max-height: 500px;

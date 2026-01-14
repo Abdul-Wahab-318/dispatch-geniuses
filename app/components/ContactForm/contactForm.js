@@ -156,7 +156,7 @@ export default function ContactForm({mc , truckType}) {
             </div>
           </div>
 
-          <div className="form-check pt-4 pb-0 flex items-center">
+          <div className="hidden md:block form-check pt-4 pb-0 flex items-center">
             <span className="wpcf7-form-control-wrap" data-name="consent">
               <span className="wpcf7-form-control wpcf7-acceptance">
                 <span className="wpcf7-list-item m-0">
@@ -176,7 +176,7 @@ export default function ContactForm({mc , truckType}) {
             </span>
 
           </div>
-          <div className="form-check pt-0 pb-6 flex items-center">
+          <div className="hidden md:block  form-check pt-0 pb-6 flex items-center">
             <span className="wpcf7-form-control-wrap" data-name="consent">
               <span className="wpcf7-form-control wpcf7-acceptance">
                 <span className="wpcf7-list-item m-0">
